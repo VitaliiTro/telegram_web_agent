@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РОШЕН-КОНДИТЕР</title>
+    <link rel="stylesheet" href="main.css">
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div id="content">		
+        <div class="menu-buttons">
+            <button onclick="openIndexPage()">ЗАМОВЛЕННЯ</button>
+			<button onclick="clearLocalStorage()">ВИХІД</button>
+        </div>		
+		
+		<div class="test-buttons">
+            <button onclick="sendInfoTelegram()">SEND TEXT</button>
+        </div>
+		
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Пошук за назвою...">
+            </div>
+            <div class="warehouse-filters">
+                <div class="checkbox-group">
+                    <label>
+                        <input type="radio" name="packingType" id="allRadio" checked> РАЗОМ
+                    </label>
+                    <label>
+                        <input type="radio" name="packingType" id="weightRadio"> ВАГОВКА
+                    </label>
+                    <label>
+                        <input type="radio" name="packingType" id="packagedRadio"> ФАСОВКА
+                    </label>
+                </div>
+                
+                <div class="separator"></div>
+                
+                <div class="checkbox-group">
+                    <label>
+                        <input type="radio" name="warehouse" id="warehouse7Radio" checked> Склад 7
+                    </label>
+                    <label>
+                        <input type="radio" name="warehouse" id="warehouseIncomeRadio"> Надходження
+                    </label>
+					<label>
+                        <input type="radio" name="warehouse" id="warehouseVIPRadio"> VIP
+                    </label>
+                </div>
+            </div>
+            
+            <table id="priceList">
+                <thead>
+                    <tr>
+                        <th>Назва</th>
+                        <th>Ціна</th>
+                        <th>Кількість</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Рядки з товарами будуть додаватися динамічно -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="price.js"></script>
+	<script>
+		function openIndexPage() {
+			// Отримуємо значення логіну з localStorage
+			var agentLogin = localStorage.getItem('agentLogin');
+			
+			// Формуємо URL з параметром логіну
+			var url = 'index.html';
+			if (agentLogin !== null) {
+				url += '?agent=' + encodeURIComponent(agentLogin);
+			}
+
+			// Переходимо на сторінку index.html
+			window.location.href = url;
+		}
+		
+		function clearLocalStorage() {
+			localStorage.clear();
+			var url = 'index.html';
+			window.location.href = url;
+			
+			document.getElementById('container').style.display = 'none';
+            document.getElementById('password-container').style.display = 'block';
+			closeModal(); 
+		}
+		
+		function sendInfoTelegram() {
+		// Отримання об'єкта користувача з Telegram WebApp
+		var userDataString = localStorage.getItem("telegramUser");
+		var userData = JSON.parse(userDataString);
+
+		// Отримання ID користувача
+		var userId = userData.id;
+
+		// Відправлення ID користувача на сервер або використання для інших дій
+		alert("ID користувача: " + userId);
+		}
+	</script>
+</body>
+</html>

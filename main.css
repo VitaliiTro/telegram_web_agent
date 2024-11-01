@@ -1,0 +1,195 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #ffe394;
+}
+
+#password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+    height: 97vh;
+    background-color: #ffe394;
+    padding: 20px; /* Додаємо відступи, щоб забезпечити відступи від країв екрану */
+    box-sizing: border-box; /* Забезпечуємо коректний підрахунок розмірів елементів */
+}
+
+#password-container input#password {
+	padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px; /* Відступ знизу */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    box-sizing: border-box; /* Враховуємо padding і border в ширині елемента */
+}
+
+#password-container input#password:focus {
+	border-color: #007bff; /* Змінюємо колір рамки при фокусі */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+#password-container img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-buttons {
+    display: flex; /* Використовуємо Flexbox для розміщення елементів в один рядок */
+    gap: 10px; /* Відстань між кнопками */
+}
+
+.price-buttons {
+    display: flex; /* Використовуємо Flexbox для розміщення елементів в один рядок */
+    gap: 10px; /* Відстань між кнопками */
+	
+}
+
+button {
+    padding: 10px 5px; 
+    font-size: 14px; 
+    width: 100%; 
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #8c0a0d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+button:hover {
+    background-color: #111;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.orders-container { /*Файл index.html*/
+    width: 90%;
+    max-width: 90vw;
+    max-height: 90vh; 
+    
+    margin: 10px auto;
+    padding: 5px;
+    
+    font-size: 10px;
+    text-align: center;
+    
+    overflow-y: auto;
+    overflow-x: auto; 
+}
+
+.search-container {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.search-container:hover {
+	border-color: #007bff; /* Змінюємо колір рамки при фокусі */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+tbody tr[data-stage="Новый"] {
+    background-color: #23fae8;
+}
+
+tbody tr[data-stage="Обработан"] {
+    background-color: #fab011;
+}
+
+tbody tr[data-stage="ЧастичноОбработан"] {
+    background-color: #f0a7fa;
+}
+
+tbody tr[data-stage="НеОбработан"] {
+    background-color: #ff837a;
+}
+
+tbody tr[data-stage="Отгружен"] {
+    background-color: #6bf29c;
+}
+
+tbody tr[data-stage="Отменен"] {
+    background-color: #c9c9c9;
+}
+
+#ordersTable th, #priceList th {
+	background-color: #fff;
+	font-size: 11px;
+}
+
+.warehouse-filters {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+.separator {
+	margin: 20px 0;
+	width: 80%;
+	border-bottom: 2px solid #000;
+}
+.checkbox-group {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+/* Групи та товари */
+.group-row {
+    background-color: #8c0a0d;
+    font-weight: bold;
+	color: #fff;
+	transition: background-color 0.3s;
+	font-size: 11px;
+	text-align: center;
+}
+.product-row {
+    background-color: #ffe394;
+	transition: background-color 0.3s;
+	font-size: 10px;
+	text-align: left;
+}
+.group-row:hover, .product-row:hover {
+    background-color: #fff;
+    cursor: pointer;
+	color: #111;
+}
+
+/* Склади */
+.warehouse-akciya td {
+    background-color: #fc9090; /* Червоний колір для Складу Акция */
+}
+
+.warehouse-income td {
+    background-color: #57d98b; /* Зелений колір для Надходжень */
+}
+
+.warehouse-vip td {
+    background-color: #83bfd4; /* Зелений колір для Надходжень */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>РОШЕН-КОНДИТЕР</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+		
+	<div id="password-container">
+		<div class="loading">
+            <img src="200w.gif" alt="Loading">
+		</div>
+		<div class="image-logo">
+			<img src="logo.png" alt="logo roshen-kondyter">
+		</div>
+        <input type="text" id="password" placeholder="Введіть логін агента...">
+        <button onclick="checkPassword()">ПІДТВЕРДИТИ</button>
+    </div>
+    
+    <div id="page-wrap" style="display: none;">
+		<div class="menu-buttons">
+			<button onclick="openPricePage()">ПРАЙС</button>
+			<button onclick="clearLocalStorage()">ВИХІД</button>
+		</div>
+        <div class="orders-container">
+            <h2 id="agentName"></h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Пошук за ТТ або Адресою...">
+            </div>
+            <div class="table-responsive">
+                <table id="ordersTable">
+                    <thead>
+                        <tr>
+                            <th>Стадія</th>
+                            <th>Торгова точка</th>
+                            <th>Адреса</th>
+                            <th>Сума замовлення</th>
+                            <th>Сума реалізації</th>
+							<th>Експедитор</th>
+							<th>Номер реалізації</th>                     
+                        </tr>
+                    </thead>
+                    <tbody id="ordersBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+	<script src="index.js"></script>
+	<script>
+		function openPricePage(){
+			var agentLogin = localStorage.getItem('agentLogin');
+			var url = 'price.html';
+			if (agentLogin !== null) {
+				url += '?agent=' + encodeURIComponent(agentLogin);
+			}
+			window.location.href = url;
+		}
+		
+		function clearLocalStorage() {
+			localStorage.clear();
+			var url = 'index.html';
+			window.location.href = url;
+			
+			document.getElementById('password').value = '';
+			
+			document.getElementById('page-wrap').style.display = 'none';
+            document.getElementById('password-container').style.display = 'block';
+			
+			closeModal(); 
+		}
+	</script>
+</body>
+</html>
