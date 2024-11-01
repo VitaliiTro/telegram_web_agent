@@ -53,7 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "Вафли фасованные",
             "Конфеты коробочные",
             "Печенье,Крекер(фас)",
-            "Шоколад"
+            "Шоколад",
+	    "Акц. шоколад"
         ]);
         return packagedGroups.has(groupName);
     }
