@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="12.11.2024">
-	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
-		<Order OrderNumber="РК000000171710" Stage="Отгружен" TT="ГОНЧАР ЛЮДМИЛА КОРНІЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Українське, ЖОВТНЕВА, 35" SumOrder="902,23" InvoiceNumber="РК000000663537" SumInvoice="902,3" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0010" AgentName="Рудий Олег (ваг)">
-		<Order OrderNumber="РК000000171716" Stage="Отгружен" TT="РОМАНЮК ОЛЕНА ІВАНІВНА ПРОДУКТИ" Adress="Пляхова, РАДЯНСЬКА, 12А" SumOrder="2 023,31" InvoiceNumber="РК000000663539" SumInvoice="2 023,3" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000171715" Stage="Отгружен" TT="РОМАНЮК ОЛЕНА ІВАНІВНА ПРОДУКТИ" Adress="Пляхова, РАДЯНСЬКА, 12А" SumOrder="647,74" InvoiceNumber="РК000000663540" SumInvoice="647,8" F2="FALSE" XPEditor=""/>
-	</Agent>
 	<Agent Login="UA002-0021" AgentName="Січкар Володимир! (фас)">
 		<Order OrderNumber="РК000000171714" Stage="Отгружен" TT="КРИВІЦЬКА ОЛЬГА ЮХТИМІВНА МАГ-Н ПРОДУКТИ" Adress="Громадське, ЦЕНТРАЛЬНА, 4" SumOrder="3 600,05" InvoiceNumber="РК000000663538" SumInvoice="3 327,8" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0022" AgentName="Кельман Артем (фас)">
-		<Order OrderNumber="РК000000171717" Stage="НеОбработан" TT="ВАКОЛЮК АНДРІЙ АНТОНОВИЧ  МАГАЗИН ПРОДУКТИ" Adress="Переорки, ШЕВЧЕНКА, 73-А" SumOrder="1 120,46" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0010" AgentName="Рудий Олег (ваг)">
+		<Order OrderNumber="РК000000171715" Stage="Отгружен" TT="РОМАНЮК ОЛЕНА ІВАНІВНА ПРОДУКТИ" Adress="Пляхова, РАДЯНСЬКА, 12А" SumOrder="647,74" InvoiceNumber="РК000000663540" SumInvoice="647,8" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171716" Stage="Отгружен" TT="РОМАНЮК ОЛЕНА ІВАНІВНА ПРОДУКТИ" Adress="Пляхова, РАДЯНСЬКА, 12А" SumOrder="2 023,31" InvoiceNumber="РК000000663539" SumInvoice="2 023,3" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
+		<Order OrderNumber="РК000000171710" Stage="Отгружен" TT="ГОНЧАР ЛЮДМИЛА КОРНІЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Українське, ЖОВТНЕВА, 35" SumOrder="902,23" InvoiceNumber="РК000000663537" SumInvoice="902,3" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0036" AgentName="Кулик Олег! (ваг)">
+		<Order OrderNumber="РК000000171719" Stage="Отгружен" TT="МАКАРОВА НАТАЛІЯ АНАТОЛІЇВНА (КІОСК НАВПРОТИ ШКОЛИ)" Adress="Селище, ПЕРЕХРЕСТЯ ФРУНЗЕ/ЛЕНІНА, " SumOrder="3 492,24" InvoiceNumber="РК000000663542" SumInvoice="3 492,3" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000171729" Stage="Отгружен" TT="РУБІНА ВАЛЕНТИНА ВІКТОРІВНА (МАГАЗИН ЗОДІАК)" Adress="Уланів, Миру, 36А" SumOrder="6 996,86" InvoiceNumber="РК000000663541" SumInvoice="6 996,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171730" Stage="Отгружен" TT="РУБІНА ВАЛЕНТИНА ВІКТОРІВНА (МАГАЗИН ЗОДІАК)" Adress="Уланів, Миру, 36А" SumOrder="2 279,09" InvoiceNumber="РК000000663543" SumInvoice="2 279,1" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171731" Stage="НеОбработан" TT="РУБІНА ВАЛЕНТИНА ВІКТОРІВНА (МАГАЗИН ЗОДІАК)" Adress="Уланів, Миру, 36А" SumOrder="4,32" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
 		<Order OrderNumber="РК000000171713" Stage="НеОбработан" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="3 226,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0011" AgentName="Максименко Микола (ваг)">
+		<Order OrderNumber="РК000000171720" Stage="НеОбработан" TT="ВЕРБОВЕНКО ЗОЯ ІВАНІВНА(МАГ-Н &quot;ЩЕДРИЙ СТІЛ&quot;)" Adress="Козятин, Довженка, 41" SumOrder="1 383,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171721" Stage="НеОбработан" TT="ВЕРБОВЕНКО ЗОЯ ІВАНІВНА(МАГ-Н &quot;ЩЕДРИЙ СТІЛ&quot;)" Adress="Козятин, Довженка, 41" SumOrder="1 383,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171722" Stage="НеОбработан" TT="ВЕРБОВЕНКО ЗОЯ ІВАНІВНА(МАГ-Н &quot;ЩЕДРИЙ СТІЛ&quot;)" Adress="Козятин, Довженка, 41" SumOrder="1 383,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171723" Stage="НеОбработан" TT="ВЕРБОВЕНКО ЗОЯ ІВАНІВНА(МАГ-Н &quot;ЩЕДРИЙ СТІЛ&quot;)" Adress="Козятин, Довженка, 41" SumOrder="692,42" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171724" Stage="НеОбработан" TT="ВЕРБОВЕНКО ЗОЯ ІВАНІВНА(МАГ-Н &quot;ЩЕДРИЙ СТІЛ&quot;)" Adress="Козятин, Довженка, 41" SumOrder="4 550,33" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0031" AgentName="Скрицький Віталій (фас)">
 		<Order OrderNumber="РК000000171711" Stage="НеОбработан" TT="ПОДОЛЯН АНАТОЛІЙ ВАСИЛЬОВИЧ ЧЕРНІВ.Р-Н МАГАЗИН" Adress="Бабчинці, Леніна, 29" SumOrder="1 423,85" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -27,5 +39,19 @@
 	</Agent>
 	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
 		<Order OrderNumber="РК000000171709" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="2 686,9" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0041" AgentName="Лаур Олег (ваг)">
+		<Order OrderNumber="РК000000171718" Stage="НеОбработан" TT="БРАТКОВ ПАВЛО ВАСИЛЬОВИЧ  М-Н &quot;ЗОЛОТО&quot;" Adress="Павлівка, ЛЕНІНА, 149" SumOrder="2 884,45" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0008" AgentName="Кузьмінський Вадим (фас)">
+		<Order OrderNumber="РК000000171725" Stage="НеОбработан" TT="ЛІТВІНОВ ВОЛОДИМИР РУСЛАНОВИЧ (БАЗАР РАКУШКА 130)" Adress="Калинівка, ПРОМИСЛОВА, РАК.130" SumOrder="94,25" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171726" Stage="НеОбработан" TT="ЛІТВІНОВ ВОЛОДИМИР РУСЛАНОВИЧ (БАЗАР РАКУШКА 130)" Adress="Калинівка, ПРОМИСЛОВА, РАК.130" SumOrder="1 481,87" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000171727" Stage="НеОбработан" TT="ЛІТВІНОВ ВОЛОДИМИР РУСЛАНОВИЧ (БАЗАР РАКУШКА 130)" Adress="Калинівка, ПРОМИСЛОВА, РАК.130" SumOrder="1 801,7" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0019" AgentName="Міськов Сергій (фас)">
+		<Order OrderNumber="РК000000171728" Stage="НеОбработан" TT="ВОВК ДМИТРО ВАСИЛЬОВИЧ ТОРГ.КОМПЛЕКС &quot;МІНІ-МАРКЕТ&quot;" Adress="Хмільник, ТИЧИНИ / ФРУНЗЕ, " SumOrder="1 564,01" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0022" AgentName="Кельман Артем (фас)">
+		<Order OrderNumber="РК000000171717" Stage="НеОбработан" TT="ВАКОЛЮК АНДРІЙ АНТОНОВИЧ  МАГАЗИН ПРОДУКТИ" Adress="Переорки, ШЕВЧЕНКА, 73-А" SumOrder="1 120,46" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
