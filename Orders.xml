@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="13.11.2024">
+	<Agent Login="UA002-0038" AgentName="Жук Віталій (ваг)">
+		<Order OrderNumber="РК000000172789" Stage="Новый" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="1 383,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000172790" Stage="НеОбработан" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="5 153,06" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0029" AgentName="Келип Олександр (ваг)">
+		<Order OrderNumber="РК000000172788" Stage="Отгружен" TT="ЧАЙКА ЮРІЙ МИХАЙЛОВИЧ МАГ-Н &quot;ЧАЙКА&quot;" Adress="Рахни Лісові, Леніна, 55" SumOrder="1 908,97" InvoiceNumber="РК000000664544" SumInvoice="1 909" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000172791" Stage="НеОбработан" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="3 542,47" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000172792" Stage="НеОбработан" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="410,98" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000172783" Stage="НеОбработан" TT="УСАТЮК ВІКТОР ЛЕОНІДОВИЧ (МАГ-Н &quot;ПРОДУКТИ&quot;)" Adress="Літин, КАРМЕЛЮКА, 20" SumOrder="3 728,65" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
