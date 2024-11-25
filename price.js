@@ -257,6 +257,62 @@ document.addEventListener("DOMContentLoaded", function () {
 
 **/
 
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
+
+        // Функція для завантаження Excel-файлу та оновлення таблиці
+        async function loadPromoPricesFromFile(filePath) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`Помилка завантаження файлу: ${response.statusText}`);
+                }
+                const data = await response.arrayBuffer();
+                const workbook = XLSX.read(data, { type: "array" });
+
+                // Отримання даних з першого аркуша
+                const sheetName = workbook.SheetNames[0];
+                const sheet = workbook.Sheets[sheetName];
+                const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 }); // Масив масивів
+
+                // Створюємо об'єкт для швидкого пошуку ціни по назві
+                const promoPrices = {};
+                for (let i = 1; i < jsonData.length; i++) {
+                    const row = jsonData[i];
+                    const itemName = row[0]?.trim(); // Назва товару в першій колонці
+                    const promoPrice = row[1]; // Ціна в другій колонці
+                    if (itemName && promoPrice) {
+                        promoPrices[itemName] = promoPrice;
+                    }
+                }
+
+                // Оновлюємо таблицю
+                const tableRows = tableBody.querySelectorAll("tr.product-row");
+                tableRows.forEach(row => {
+                    const itemNameCell = row.querySelector("td:first-child"); // Перша колонка - Назва товару
+                    const priceCell = row.querySelector("td:nth-child(4)"); // Четверта колонка для промо-ціни
+
+                    if (itemNameCell && priceCell) {
+                        const itemName = itemNameCell.textContent.trim();
+                        if (promoPrices[itemName]) {
+                            priceCell.textContent = parseFloat(promoPrices[itemName]).toFixed(2); // Форматування ціни
+                        }
+                    }
+                });
+
+                console.log("Ціни з Excel успішно оновлено!");
+            } catch (error) {
+                console.error("Помилка:", error);
+            }
+        }
+
+        // Викликаємо функцію завантаження Excel-файлу
+        loadPromoPricesFromFile("PromoPrice.xlsx"); // Зазначте правильний шлях до файлу
+    });
+
+
 
 
     function filterItems() {
