@@ -199,6 +199,56 @@ document.addEventListener("DOMContentLoaded", function () {
         xmlhttp.send();
     }
 
+    function loadPromoPrices(file) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+        var data = new Uint8Array(e.target.result);
+        var workbook = XLSX.read(data, { type: "array" });
+
+        // Припустимо, що дані знаходяться на першому аркуші
+        var sheetName = workbook.SheetNames[0];
+        var sheet = workbook.Sheets[sheetName];
+        var jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 }); // Отримуємо масив масивів
+
+        // Створюємо об'єкт для швидкого пошуку promoPrice по назві товару
+        var promoPrices = {};
+
+        for (var i = 1; i < jsonData.length; i++) {
+            var row = jsonData[i];
+            var itemName = row[0]; // Назва товару в першій колонці
+            var promoPrice = row[1]; // Значення promoPrice у другій колонці
+            if (itemName && promoPrice) {
+                promoPrices[itemName] = promoPrice;
+            }
+        }
+
+        // Підставляємо значення в таблицю
+        var tableRows = document.querySelectorAll(".product-row");
+        tableRows.forEach((row) => {
+            var itemNameCell = row.querySelector("td:first-child");
+            if (itemNameCell) {
+                var itemName = itemNameCell.textContent.trim();
+                if (promoPrices[itemName]) {
+                    var promoPriceCell = row.querySelector("td:nth-child(4)");
+                    if (promoPriceCell) {
+                        promoPriceCell.textContent = promoPrices[itemName];
+                    } else {
+                        // Якщо колонка promoPrice не існує, додаємо її
+                        var newCell = document.createElement("td");
+                        newCell.textContent = promoPrices[itemName];
+                        row.appendChild(newCell);
+                    }
+                }
+            }
+        });
+
+        console.log("Промо-ціни успішно оновлено!");
+    };
+
+    reader.readAsArrayBuffer(file);
+}
+
     function filterItems() {
         var searchValue = searchInput.value.toLowerCase();
         var showWarehouse7 = warehouse7Radio.checked;
