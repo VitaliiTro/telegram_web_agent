@@ -199,9 +199,6 @@ document.addEventListener("DOMContentLoaded", function () {
         xmlhttp.send();
     }
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     function loadPromoPricesFromFile(filePath) {
         fetch(filePath)
             .then((response) => {
@@ -256,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("DOMContentLoaded", function () {
         loadPromoPricesFromFile("PromoPrice.xlsx"); // Вкажіть шлях до вашого файлу
     });
-</script>
+
 
 
 
