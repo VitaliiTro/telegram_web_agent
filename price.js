@@ -191,6 +191,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     groupRow.style.display = "";
                 }
 
+                loadPromoPricesFromFile("PromoPrice.xlsx");
+
                 if (callback) {
                     callback();
                 }
