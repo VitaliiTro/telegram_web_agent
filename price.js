@@ -257,7 +257,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 **/
 
-    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
 
     document.addEventListener("DOMContentLoaded", function () {
         const tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
