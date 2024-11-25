@@ -153,10 +153,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         var itemPrice = parseFloat(itemPriceStr.replace(',', '.')) * 1.2;
                         var formattedPrice = itemPrice.toFixed(2);
                         var itemLeftover = item.getAttribute("Leftover");
-                        var promoprice = item.getAttribute()
 
                         var itemRow = document.createElement("tr");
-                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>" + promoprice + "</td>";
+                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>";
 
                         var parentTagName = item.parentNode.tagName;
                         var parentOfParentTagName = item.parentNode.parentNode.tagName;
