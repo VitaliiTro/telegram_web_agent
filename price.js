@@ -200,8 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    var tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
-    document.getElementById("PromoPrice.xlsx").addEventListener("change", function (e) {
+    document.getElementById("pricelist").addEventListener("change", function (e) {
         var file = e.target.files[0];
         loadPromoPrices(file);
     });
