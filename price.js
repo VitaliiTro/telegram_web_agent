@@ -201,60 +201,63 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-    function loadPromoPrices(file) {
-        var reader = new FileReader();
-
-        reader.onload = function (e) {
-            var data = new Uint8Array(e.target.result);
-            var workbook = XLSX.read(data, { type: "array" });
-
-            // Отримуємо дані з першого аркуша
-            var sheetName = workbook.SheetNames[0];
-            var sheet = workbook.Sheets[sheetName];
-            var jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 }); // Масив масивів
-
-            // Створюємо об'єкт для швидкого пошуку ціни по назві
-            var promoPrices = {};
-
-            for (var i = 1; i < jsonData.length; i++) {
-                var row = jsonData[i];
-                var itemName = row[0]; // Назва товару в першій колонці
-                var promoPrice = row[1]; // Промо ціна в другій колонці
-                if (itemName && promoPrice) {
-                    promoPrices[itemName] = promoPrice;
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    function loadPromoPricesFromFile(filePath) {
+        fetch(filePath)
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error(`Помилка завантаження файлу: ${response.statusText}`);
                 }
-            }
+                return response.arrayBuffer();
+            })
+            .then((data) => {
+                var workbook = XLSX.read(data, { type: "array" });
 
-            // Знаходимо таблицю
-            var tableRows = document.querySelectorAll("#priceList tbody tr");
+                // Отримуємо дані з першого аркуша
+                var sheetName = workbook.SheetNames[0];
+                var sheet = workbook.Sheets[sheetName];
+                var jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 }); // Масив масивів
 
-            tableRows.forEach((row) => {
-                var itemNameCell = row.querySelector("td:first-child"); // Назва товару
-                var promoPriceCell = row.querySelector("td:last-child"); // Остання колонка - Промо ціна
+                // Створюємо об'єкт для швидкого пошуку ціни по назві
+                var promoPrices = {};
 
-                if (itemNameCell && promoPriceCell) {
-                    var itemName = itemNameCell.textContent.trim(); // Назва товару з таблиці
-                    if (promoPrices[itemName]) {
-                        promoPriceCell.textContent = promoPrices[itemName]; // Додаємо промо ціну
+                for (var i = 1; i < jsonData.length; i++) {
+                    var row = jsonData[i];
+                    var itemName = row[0]; // Назва товару в першій колонці
+                    var promoPrice = row[1]; // Промо ціна в другій колонці
+                    if (itemName && promoPrice) {
+                        promoPrices[itemName] = promoPrice;
                     }
                 }
+
+                // Оновлюємо таблицю
+                var tableRows = document.querySelectorAll("#priceList tbody tr");
+
+                tableRows.forEach((row) => {
+                    var itemNameCell = row.querySelector("td:first-child"); // Назва товару
+                    var promoPriceCell = row.querySelector("td:last-child"); // Остання колонка - Промо ціна
+
+                    if (itemNameCell && promoPriceCell) {
+                        var itemName = itemNameCell.textContent.trim(); // Назва товару з таблиці
+                        if (promoPrices[itemName]) {
+                            promoPriceCell.textContent = promoPrices[itemName]; // Додаємо промо ціну
+                        }
+                    }
+                });
+
+                console.log("Промо-ціни успішно оновлено!");
+            })
+            .catch((error) => {
+                console.error("Помилка:", error);
             });
-
-            console.log("Промо-ціни успішно оновлено!");
-        };
-
-        reader.readAsArrayBuffer(file);
     }
 
-    // Прив'язуємо обробник до input
-    document.getElementById("fileInput").addEventListener("change", function (e) {
-        var file = e.target.files[0]; // Отримуємо файл
-        if (file) {
-            loadPromoPrices(file);
-        } else {
-            console.error("Файл не вибрано!");
-        }
+    // Викликаємо функцію завантаження з файлу
+    document.addEventListener("DOMContentLoaded", function () {
+        loadPromoPricesFromFile("PromoPrice.xlsx"); // Вкажіть шлях до вашого файлу
     });
+</script>
+
 
 
 
