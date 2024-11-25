@@ -199,6 +199,8 @@ document.addEventListener("DOMContentLoaded", function () {
         xmlhttp.send();
     }
 
+
+    var tableBody = document.getElementById("priceList").getElementsByTagName("tbody")[0];
     document.getElementById("PromoPrice.xlsx").addEventListener("change", function (e) {
         var file = e.target.files[0];
         loadPromoPrices(file);
@@ -228,18 +230,19 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-        // Підставляємо значення в таблицю
+        // Перебираємо існуючі рядки таблиці
         var tableRows = document.querySelectorAll(".product-row");
         tableRows.forEach((row) => {
-            var itemNameCell = row.querySelector("td:first-child");
+            var itemNameCell = row.querySelector("td:first-child"); // Назва товару в першій колонці
             if (itemNameCell) {
-                var itemName = itemNameCell.textContent.trim();
+                var itemName = itemNameCell.textContent.trim(); // Назва товару
                 if (promoPrices[itemName]) {
-                    var promoPriceCell = row.querySelector("td:nth-child(4)");
+                    // Якщо промо-ціна знайдена, додаємо її
+                    var promoPriceCell = row.querySelector("td:nth-child(4)"); // Четверта колонка - для промо-ціни
                     if (promoPriceCell) {
                         promoPriceCell.textContent = promoPrices[itemName];
                     } else {
-                        // Якщо колонка promoPrice не існує, додаємо її
+                        // Якщо четверта колонка відсутня, створюємо її
                         var newCell = document.createElement("td");
                         newCell.textContent = promoPrices[itemName];
                         row.appendChild(newCell);
@@ -253,6 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     reader.readAsArrayBuffer(file);
 }
+
 
     function filterItems() {
         var searchValue = searchInput.value.toLowerCase();
