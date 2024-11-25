@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const tableRows = tableBody.querySelectorAll("tr.product-row");
                 tableRows.forEach(row => {
                     const itemNameCell = row.querySelector("td:first-child"); // Перша колонка - Назва товару
-                    const priceCell = row.querySelector("td:nth-child(4)"); // Четверта колонка для промо-ціни
+                    const priceCell = row.querySelector("td:nth-child(3)"); // Четверта колонка для промо-ціни
 
                     if (itemNameCell && priceCell) {
                         const itemName = itemNameCell.textContent.trim();
