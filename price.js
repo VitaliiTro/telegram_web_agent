@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
 
                     var groupRow = document.createElement("tr");
-                    groupRow.innerHTML = "<td colspan='3'><b>Група " + groupName + "</b></td>";
+                    groupRow.innerHTML = "<td colspan='4'><b>Група " + groupName + "</b></td>";
                     groupRow.classList.add("group-row");
                     groupRow.setAttribute("data-group", groupName);
                     groupRow.setAttribute("data-expanded", "false");
@@ -153,9 +153,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         var itemPrice = parseFloat(itemPriceStr.replace(',', '.')) * 1.2;
                         var formattedPrice = itemPrice.toFixed(2);
                         var itemLeftover = item.getAttribute("Leftover");
+                        var promoprice = item.getAttribute()
 
                         var itemRow = document.createElement("tr");
-                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>";
+                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>" + promoprice + "</td>";
 
                         var parentTagName = item.parentNode.tagName;
                         var parentOfParentTagName = item.parentNode.parentNode.tagName;
