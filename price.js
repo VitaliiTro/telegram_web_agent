@@ -199,7 +199,8 @@ document.addEventListener("DOMContentLoaded", function () {
         xmlhttp.send();
     }
 
-    function loadPromoPricesFromFile(filePath) {
+
+/** function loadPromoPricesFromFile(filePath) {
         fetch(filePath)
             .then((response) => {
                 if (!response.ok) {
@@ -254,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
         loadPromoPricesFromFile("PromoPrice.xlsx"); // Вкажіть шлях до вашого файлу
     });
 
-
+**/
 
 
 
