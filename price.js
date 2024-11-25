@@ -199,6 +199,11 @@ document.addEventListener("DOMContentLoaded", function () {
         xmlhttp.send();
     }
 
+    document.getElementById("PromoPrice.xlsx").addEventListener("change", function (e) {
+        var file = e.target.files[0];
+        loadPromoPrices(file);
+    });
+
     function loadPromoPrices(file) {
     var reader = new FileReader();
 
