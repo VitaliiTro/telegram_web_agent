@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<Day Date="26.11.2024"/>
+<Day Date="26.11.2024">
+	<Agent Login="UA002-0021" AgentName="Січкар Володимир! (фас)">
+		<Order OrderNumber="РК000000181509" Stage="Отгружен" TT="КРИВІЦЬКА ОЛЬГА ЮХТИМІВНА МАГ-Н ПРОДУКТИ" Adress="Громадське, ЦЕНТРАЛЬНА, 4" SumOrder="2 131,86" InvoiceNumber="РК000000672670" SumInvoice="2 087,9" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0061" AgentName="Зелінський Владислав (фас)">
+		<Order OrderNumber="РК000000181510" Stage="НеОбработан" TT="НАСІКОВСЬКИЙ ОЛЕКСАНДР СЕРГІЙОВИЧ &quot;ПРОДУКТИ&quot;" Adress="Гонтівка, Миру, 20Б" SumOrder="1 908,82" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Жук Віталій (ваг)">
+		<Order OrderNumber="РК000000181508" Stage="НеОбработан" TT="ПАЖЕТНОВ СЕРГІЙ ВОЛОДИМИРОВИЧ М-Н ПРОДУКТИ" Adress="Леляки, Леніна, 28" SumOrder="1 943,32" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000181507" Stage="НеОбработан" TT="ПАЖЕТНОВ СЕРГІЙ ВОЛОДИМИРОВИЧ М-Н ПРОДУКТИ" Adress="Леляки, Леніна, 28" SumOrder="3 010,9" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+</Day>
