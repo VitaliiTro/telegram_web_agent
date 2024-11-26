@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         var itemPromoPrice = item.getAttribute("promoprice");
 
                         var itemRow = document.createElement("tr");
-                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td>" + itemPromoPrice + "</td>";
+                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td><td>" + itemPromoPrice + "</td>";
 
                         var parentTagName = item.parentNode.tagName;
                         var parentOfParentTagName = item.parentNode.parentNode.tagName;
@@ -191,8 +191,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     groupRow.style.display = "";
                 }
-
-                loadPromoPricesFromFile("PromoPrice.xlsx");
 
                 if (callback) {
                     callback();
