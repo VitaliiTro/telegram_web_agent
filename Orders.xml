@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="04.12.2024">
 	<Agent Login="UA002-0038" AgentName="Жук Віталій (ваг)">
-		<Order OrderNumber="РК000000187341" Stage="Обработан" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="1 038,24" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000187340" Stage="Обработан" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="9 343,72" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000187342" Stage="Обработан" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="21,96" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000187341" Stage="Отгружен" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="1 038,24" InvoiceNumber="РК000000678272" SumInvoice="1 038,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000187340" Stage="Отгружен" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="9 343,72" InvoiceNumber="РК000000678273" SumInvoice="9 343,8" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000187342" Stage="Отгружен" TT="ЧОПИК СВІТЛАНА АДОЛЬФІВНА ПРОДУКТИ" Adress="Мухівці, Шевченка, 13" SumOrder="21,96" InvoiceNumber="РК000000678274" SumInvoice="22" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
+		<Order OrderNumber="РК000000187343" Stage="НеОбработан" TT="ВИННИК НАДІЯ ОЛЕКСАНДРІВНА маг-н KIVIS перший корпус" Adress="Вінниця, Покришкіна, 8 Г" SumOrder="3 015,18" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0041" AgentName="Лаур Олег (ваг)">
+		<Order OrderNumber="РК000000187344" Stage="НеОбработан" TT="ВЕРБОВИЙ ВОЛОДИМИР ІВАНОВИЧ" Adress="Животівка, ЦЕНТРАЛЬНА, 4" SumOrder="6 433,39" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
+		<Order OrderNumber="РК000000187345" Stage="НеОбработан" TT="НЕСТЮК НЕЛЯ ВАСИЛІВНА(МІНІ- МАРКЕТ &quot;КИЇВСЬКА РУСЬ&quot;)" Adress="Стрижавка, Молодіжна, 7" SumOrder="924" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0017" AgentName="Дишленко Владислав! (ваг)2">
 		<Order OrderNumber="РК000000187339" Stage="НеОбработан" TT="СІВАК ЛЮДМИЛА ОЛЕКСАНДРІВНА М-Н НА АЗС" Adress="Якушинці, А/Д М-21 Житомир- Могилів- Подільський (через Вінницю) км 130+780, " SumOrder="1 650,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
