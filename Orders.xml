@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="13.12.2024">
+	<Agent Login="UA002-0019" AgentName="Міськов Сергій (фас)">
+		<Order OrderNumber="РК000000193857" Stage="Обработан" TT="ЗАЙЦЕВА НАТАЛІЯ ВІКТОРІВНА ПРОДУКТИ" Adress="Козятин, 8-ма Гвардійська, 57" SumOrder="1 647,22" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0074" AgentName="Оператор">
 		<Order OrderNumber="РК000000193833" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="3 654" InvoiceNumber="РК000000684467" SumInvoice="3 654" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000193834" Stage="Отгружен" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="3 654" InvoiceNumber="РК000000684468" SumInvoice="3 654" F2="FALSE" XPEditor=""/>
@@ -18,6 +21,7 @@
 	<Agent Login="UA002-0032" AgentName="Лавренюк Віталій!!! (фас)">
 		<Order OrderNumber="РК000000193846" Stage="Отгружен" TT="ТУПЧІЙ КАТЕРИНА ВІКТОРІВНА маг-н Україночка" Adress="Вінниця, Князів Коріатовичів, 205 а" SumOrder="9 867,02" InvoiceNumber="РК000000684479" SumInvoice="9 459,3" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000193852" Stage="НеОбработан" TT="ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ &quot;РІТЕЙЛІНВЕСТГРУП&quot;    М-Н &quot;УКРАЇНОЧКА&quot;" Adress="Бохоники, Квітнева, 11" SumOrder="11 514,24" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000193854" Stage="НеОбработан" TT="ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ &quot;РІТЕЙЛІНВЕСТГРУП&quot;    М-Н &quot;УКРАЇНОЧКА&quot;" Adress="Бохоники, Квітнева, 11" SumOrder="4 704" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
 		<Order OrderNumber="РК000000193847" Stage="Отгружен" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="864,6" InvoiceNumber="РК000000684480" SumInvoice="864,6" F2="FALSE" XPEditor=""/>
@@ -29,5 +33,9 @@
 	</Agent>
 	<Agent Login="UA002-0029" AgentName="Скоцький Вакансія">
 		<Order OrderNumber="РК000000193853" Stage="НеОбработан" TT="НАУМЕНКО ВІТАЛІЙ ЮРІЙОВИЧ МАГ. ПРОДУКТИ" Adress="Щаслива, БУДЬОНОГО, 1" SumOrder="4 210,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Жук Віталій (ваг)">
+		<Order OrderNumber="РК000000193855" Stage="НеОбработан" TT="КУШНІР ДЕНІСА РУСЛАНІВНА(МАГАЗИН)" Adress="Шаргород, ЛЕНІНА, " SumOrder="231,84" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000193856" Stage="НеОбработан" TT="КУШНІР ДЕНІСА РУСЛАНІВНА(МАГАЗИН)" Adress="Шаргород, ЛЕНІНА, " SumOrder="1 870,51" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
