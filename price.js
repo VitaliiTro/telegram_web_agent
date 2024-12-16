@@ -155,8 +155,11 @@ document.addEventListener("DOMContentLoaded", function () {
                         var itemLeftover = item.getAttribute("Leftover");
                         var itemPromoPrice = item.getAttribute("promoprice");
 
-                        var itemRow = document.createElement("tr");
+                        if (itemLeftover > 0){
+                            var itemRow = document.createElement("tr");
                         itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td><td>" + itemPromoPrice + "</td>";
+                        }
+
 
                         var parentTagName = item.parentNode.tagName;
                         var parentOfParentTagName = item.parentNode.parentNode.tagName;
