@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         if (itemLeftover > 1){
                             var itemRow = document.createElement("tr");
-                        itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td><td>" + itemPromoPrice + "</td>";
+                            itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td><td>" + itemPromoPrice + "</td>";
                         }
 
 
