@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Сортування груп за алфавітом
                 var sortedGroupNames = Object.keys(groupedItems).sort();
 
-                var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони"]);
+                var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони", "Не використовується"]);
 
                 for (var k = 0; k < sortedGroupNames.length; k++) {
                     var groupName = sortedGroupNames[k];
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         var itemPrice = parseFloat(itemPriceStr.replace(',', '.')) * 1.2;
                         var formattedPrice = itemPrice.toFixed(2);
                         var itemLeftover = item.getAttribute("Leftover");
-                        var itemPromoPrice = item.getAttribute("promoprice") || " ";
+                        var itemPromoPrice = item.getAttribute("promoprice");
 
                         var itemRow = document.createElement("tr");
                         itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td><td>" + itemPromoPrice + "</td>";
