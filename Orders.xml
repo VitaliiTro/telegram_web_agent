@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="25.12.2024">
 	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
-		<Order OrderNumber="РК000000200623" Stage="ЧастичноОбработан" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="2 225,48" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000200623" Stage="Отгружен" TT="ІВАНІК ОЛЕКСАНДР МИКОЛАЙОВИЧ МАГ.МАРИНА" Adress="Літин, КАРМЕЛЮКА, 88 А" SumOrder="2 225,48" InvoiceNumber="РК000000690894" SumInvoice="269,3" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0062" AgentName="Чіпак Євген (ваг)">
+		<Order OrderNumber="РК000000200624" Stage="Отгружен" TT="КРАСНОШТАН ВІКТОР ІВАНОВИЧ КІОСК ВЛАДАР" Adress="Жорнище, БОЙКА, 13 А" SumOrder="4 020,23" InvoiceNumber="РК000000690895" SumInvoice="2 993,4" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0061" AgentName="Мудрий Андрій (фас)">
+		<Order OrderNumber="РК000000200625" Stage="НеОбработан" TT="ПОНОМАР ВОЛОДИМИР МИХАЙЛОВИЧ(М-Н В ЦОКОЛІ УНІВЕРМАГУ)" Adress="Красне, Базарна, 66" SumOrder="3 689,14" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
