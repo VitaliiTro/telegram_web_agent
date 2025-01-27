@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function isWeightGroup(groupName) {
         var weightGroups = new Set([
+	    "Yummi Gummi +  Метро (фас)",					",
             "Карамель,Ирис,Желейные(фа",
             "Карамель,Ирис,Желейные(вес)",
             "Конфеты весовые",
