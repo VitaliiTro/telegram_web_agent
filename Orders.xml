@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="28.01.2025">
+	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
+		<Order OrderNumber="РК000000012805" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="2 148,85" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0059" AgentName="Мацьків Максім (ваг)">
+		<Order OrderNumber="РК000000012804" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="2 401,38" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0030" AgentName="Власенко Ярослав (фас)">
+		<Order OrderNumber="РК000000012803" Stage="Отгружен" TT="СОЛОВЕЙ ОЛЕКСАНДР ВОЛОДИМИРОВИЧ ПРОДУКТИ" Adress="Шевченкове, Жовтнева, 44" SumOrder="1 310,11" InvoiceNumber="РК000000012371" SumInvoice="1 111,6" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000012704" Stage="Новый" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС &quot;БРСМ- НАФТА&quot;" Adress="Махнівка, Київська, 1" SumOrder="5 113,34" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
