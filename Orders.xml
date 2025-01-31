@@ -16,8 +16,14 @@
 		<Order OrderNumber="ÐÊ000000014866" Stage="Íîâûé" TT="ÏÅÒÐÓ×ÅÍÊÎ ÒÀÌÀÐÀ ÀÍÀÒÎË²¯ÂÍÀ Ì-Í &quot;ÌÀÊÑÈÌ&quot;" Adress="Áóõíè, Øåâ÷åíêà, 1" SumOrder="2 923,32" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="ÐÊ000000014997" Stage="Íîâûé" TT="ÒÎÂÀÐÈÑÒÂÎ Ç ÎÁÌÅÆÅÍÎÞ Â²ÄÏÎÂ²ÄÀËÜÍ²ÑÒÞ &quot;ÍÒÑ ÏÐÎÄÌ²ÊÑ&quot; ÏÐÎÄÓÊÒÈ" Adress="Â³ííèöÿ, Òóï³ê Òÿæèë³âñüêèé, 1 º" SumOrder="21 940,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
+	<Agent Login="UA002-0029" AgentName="Ñêîöüêèé Âàêàíñ³ÿ">
+		<Order OrderNumber="ÐÊ000000015325" Stage="Îòãðóæåí" TT="×ÓÁÀÒÞÊ ÀÍÀÑÒÀÑ²ß ÐÎÌÀÍ²ÂÍÀ ÌÀÃÀÇÈÍ &quot;ÄÎÁÐÎÄ²É&quot;" Adress="Ëèïîâåöü, 1-ÃÎ ÒÐÀÂÍß, 3" SumOrder="2 807,39" InvoiceNumber="ÐÊ000000014743" SumInvoice="2 563,5" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0010" AgentName="Ôóðìàí÷óê Ãë³á (âàã)">
 		<Order OrderNumber="ÐÊ000000015312" Stage="Îòãðóæåí" TT="Ë²ÑÎÂÀ ÑÂ²ÒËÀÍÀ ÂÀÑÈË²ÂÍÀ " Adress="Ïîãðåáèùå, Â³ííèöüêà, 21" SumOrder="1 407,02" InvoiceNumber="ÐÊ000000014736" SumInvoice="779,1" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0004" AgentName="Ñàõíåíêî Â³êòîð! (ôàñ)">
+		<Order OrderNumber="ÐÊ000000015326" Stage="Îòãðóæåí" TT="Á²ËÀÍ ÂÀÄÈÌ ÏÅÒÐÎÂÈ× (ÌÀÃ-Í&quot;ÏÎÄÎËßÍÊÀ&quot;)" Adress="Æìåðèíêà, Êè¿âñüêà, 131" SumOrder="1 711,2" InvoiceNumber="ÐÊ000000014744" SumInvoice="1 567,2" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0019" AgentName="Ì³ñüêîâ Ñåðã³é (ôàñ)">
 		<Order OrderNumber="ÐÊ000000015323" Stage="ÍåÎáðàáîòàí" TT="ÇÀÉÖÅÂÀ ÍÀÒÀË²ß Â²ÊÒÎÐ²ÂÍÀ ÏÐÎÄÓÊÒÈ" Adress="Êîçÿòèí, 8-ìà Ãâàðä³éñüêà, 57" SumOrder="1 510,85" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -32,6 +38,7 @@
 	</Agent>
 	<Agent Login="UA002-0030" AgentName="Âëàñåíêî ßðîñëàâ (ôàñ)">
 		<Order OrderNumber="ÐÊ000000015320" Stage="Îòãðóæåí" TT="ÑÌ²ËßÍÅÖÜ ÎËÅÍÀ ÂÎËÎÄÈÌÈÐ²ÂÍÀ ÌÀÃÀÇÈÍ &quot;ÂÈØÅÍÜÊÀ&quot;" Adress="Êîíèù³â, Ïåðøîòðàâíåâà, 3" SumOrder="2 495,34" InvoiceNumber="ÐÊ000000014740" SumInvoice="1 665" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="ÐÊ000000015324" Stage="Îòãðóæåí" TT="ÑÌ²ËßÍÅÖÜ ÎËÅÍÀ ÂÎËÎÄÈÌÈÐ²ÂÍÀ ÂÀÃÎÍ×ÈÊ ² ÄÂÎÐ²" Adress="Çíàìåí³âêà, Ëåí³íà, 26" SumOrder="2 560,85" InvoiceNumber="ÐÊ000000014742" SumInvoice="1 721,9" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0035" AgentName="Ìàðòèíåâè÷ Àðòåì (âàã)">
 		<Order OrderNumber="ÐÊ000000015313" Stage="Îòãðóæåí" TT="ØÂÀÁÑÜÊÈÉ ÎËÅÊÑÀÍÄÐ ÎËÅÊÑÀÍÄÐÎÂÈ×  Ì-Í &quot;ÒÏÏ&quot;" Adress="Ïðèáîð³âêà, Ë. ÓÊÐÀ¯ÍÊÈ, 3 À" SumOrder="1 557,78" InvoiceNumber="ÐÊ000000014735" SumInvoice="1 557,8" F2="FALSE" XPEditor=""/>
