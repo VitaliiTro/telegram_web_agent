@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var searchValue = searchInput.value.toLowerCase();
         var showWarehouse7 = warehouse7Radio.checked;
         var showWarehouseIncome = warehouseIncomeRadio.checked;
-        var showWarehouseVIP = warehouseVIPRadio.checked; // Додано
+        var showWarehouseVIP = warehouseVIPRadio.checked;
         var showWeight = weightRadio.checked;
         var showPackaged = packagedRadio.checked;
         var showAll = allRadio.checked;
