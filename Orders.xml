@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="11.02.2025">
+	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
+		<Order OrderNumber="РК000000019558" Stage="НеОбработан" TT="МАТВІЙЧУК ЛЮДМИЛА ПЕТРІВНА " Adress="Сутиски, Соборна, 47" SumOrder="4 708,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000019559" Stage="НеОбработан" TT="МАТВІЙЧУК ЛЮДМИЛА ПЕТРІВНА " Adress="Сутиски, Соборна, 47" SumOrder="1 289,56" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000019545" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="4 708,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000019546" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="389,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0008" AgentName="Кузьмінський Вадим (фас)">
 		<Order OrderNumber="РК000000019552" Stage="Отгружен" TT="ЛІТВІНОВ ВОЛОДИМИР РУСЛАНОВИЧ (БАЗАР РАКУШКА 130)" Adress="Калинівка, ПРОМИСЛОВА, РАК.130" SumOrder="1 482,58" InvoiceNumber="РК000000018789" SumInvoice="1 482,6" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000019551" Stage="Отгружен" TT="ЛІТВІНОВ ВОЛОДИМИР РУСЛАНОВИЧ (БАЗАР РАКУШКА 130)" Adress="Калинівка, ПРОМИСЛОВА, РАК.130" SumOrder="1 070,69" InvoiceNumber="РК000000018790" SumInvoice="1 070,7" F2="FALSE" XPEditor=""/>
 	</Agent>
-	<Agent Login="UA002-0035" AgentName="Мартиневич Артем (ваг)">
-		<Order OrderNumber="РК000000019545" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="4 708,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000019546" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="389,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	<Agent Login="UA002-0031" AgentName="Бассараб Єгор (фас)">
+		<Order OrderNumber="РК000000019557" Stage="Отгружен" TT="РОЗДОРОЖНА ВАЛЕНТИНА МИКОЛАІВНА МАГАЗИН ИРИНА" Adress="Хоменки, 50р Жовтня, 44" SumOrder="1 059,84" InvoiceNumber="РК000000018795" SumInvoice="1 059,9" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0038" AgentName="Жук Віталій (ваг)">
 		<Order OrderNumber="РК000000019553" Stage="Отгружен" TT="БІЛАН ВАДИМ ПЕТРОВИЧ (МАГ-Н&quot;ПОДОЛЯНКА&quot;)" Adress="Жмеринка, Київська, 131" SumOrder="2 258,74" InvoiceNumber="РК000000018791" SumInvoice="2 258,8" F2="FALSE" XPEditor=""/>
