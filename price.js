@@ -68,6 +68,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var packagedRadio = document.getElementById("packagedRadio");
     var allRadio = document.getElementById("allRadio");
     var warehouseVIPRadio = document.getElementById("warehouseVIPRadio");
+    var warehouseOPTRadio = document.getElementById("warehouseOPTRadio");
+
 
     searchInput.addEventListener("input", filterItems);
     warehouse7Radio.addEventListener("change", filterItems);
