@@ -211,7 +211,8 @@ document.addEventListener("DOMContentLoaded", function () {
         var searchValue = searchInput.value.toLowerCase();
         var showWarehouse7 = warehouse7Radio.checked;
         var showWarehouseIncome = warehouseIncomeRadio.checked;
-        var showWarehouseVIP = warehouseVIPRadio.checked; // Додано
+        var showWarehouseVIP = warehouseVIPRadio.checked;
+        var showWarehouseOPT = warehouseOPTRadio.checked;
         var showWeight = weightRadio.checked;
         var showPackaged = packagedRadio.checked;
         var showAll = allRadio.checked;
@@ -240,12 +241,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 var isInWarehouse7 = rows[i].classList.contains("warehouse-7");
                 var isInWarehouseIncome = rows[i].classList.contains("warehouse-income");
                 var isInWarehouseVIP = rows[i].classList.contains("warehouse-vip");
+                var isInWarehouseOPT = rows[i].classList.contains("warehouse-opt");
 
                 var shouldDisplay = matchesSearch && matchesFilter &&
                     (
                         (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип")) ||
                         (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип")) ||
-                        (showWarehouseVIP && isInWarehouseVIP)
+                        (showWarehouseVIP && isInWarehouseVIP && !itemName.includes("опт")) ||
+                        (showWarehouseOPT && isInWarehouseOPT && !itemName.includes("акция вип"))
                     );
 
                 if (shouldDisplay) {
@@ -295,9 +298,11 @@ document.addEventListener("DOMContentLoaded", function () {
             var isInWarehouse7 = item.classList.contains("warehouse-7");
             var isInWarehouseIncome = item.classList.contains("warehouse-income");
             var isInWarehouseVIP = item.classList.contains("warehouse-vip");
+            var isInWarehouseOPT = item.classList.contains("warehouse-opt");
             var showWarehouse7 = warehouse7Radio.checked;
             var showWarehouseIncome = warehouseIncomeRadio.checked;
             var showWarehouseVIP = warehouseVIPRadio.checked;
+            var showWarehouseOPT = warehouseOPTRadio.checked;
             var showWeight = weightRadio.checked;
             var showPackaged = packagedRadio.checked;
             var showAll = allRadio.checked;
@@ -312,7 +317,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 (
                     (showWarehouse7 && isInWarehouse7 && !item.innerText.toLowerCase().includes("акция вип")) ||
                     (showWarehouseIncome && isInWarehouseIncome && !item.innerText.toLowerCase().includes("акция вип")) ||
-                    (showWarehouseVIP && isInWarehouseVIP)
+                    (showWarehouseVIP && isInWarehouseVIP && !item.innerText.toLowerCase().includes("опт")) ||
+                    (showWarehouseOPT && isInWarehouseOPT && !item.innerText.toLowerCase().includes("акция вип"))
                 );
 
             item.style.display = shouldDisplay ? displayStyle : "none";
