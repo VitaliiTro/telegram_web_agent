@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function isWeightGroup(groupName) {
         var weightGroups = new Set([
-            "Yummi Gummi +  Метро (фас)",
             "Карамель,Ирис,Желейные(фа",
             "Карамель,Ирис,Желейные(вес)",
             "Конфеты весовые",
@@ -69,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var allRadio = document.getElementById("allRadio");
     var warehouseVIPRadio = document.getElementById("warehouseVIPRadio");
 
-
     searchInput.addEventListener("input", filterItems);
     warehouse7Radio.addEventListener("change", filterItems);
     warehouseIncomeRadio.addEventListener("change", filterItems);
@@ -80,11 +78,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Завантаження даних та фільтрація
     loadDataAndFilter();
-    
+
     function loadDataAndFilter() {
         loadXMLData(filterItems);
     }
-    
+
     searchInput.addEventListener("input", function() {
         if (searchInput.value.trim() === "") {
             searchFilterActive = false;
@@ -117,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Сортування груп за алфавітом
                 var sortedGroupNames = Object.keys(groupedItems).sort();
 
-                var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони", "Не використовується"]);
+                var excludedGroups = new Set(["Побутові товари", "Архив", "Поддони"]);
 
                 for (var k = 0; k < sortedGroupNames.length; k++) {
                     var groupName = sortedGroupNames[k];
@@ -155,16 +153,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         var itemPrice = parseFloat(itemPriceStr.replace(',', '.')) * 1.2;
                         var formattedPrice = itemPrice.toFixed(2);
                         var itemLeftover = item.getAttribute("Leftover");
-                        var itemPromoPrice = item.getAttribute("promoprice");
-
-                        if (parseFloat(itemLeftover) === 0) {
-                            continue;
-                        }
+                        var itemPromoPrice = item.getAttribute("promoprice") || " ";
 
                         var itemRow = document.createElement("tr");
                         itemRow.innerHTML = "<td>" + itemName + "</td><td>" + formattedPrice + "</td><td>" + itemLeftover + "</td><td>" + itemPromoPrice + "</td>";
-
-
 
                         var parentTagName = item.parentNode.tagName;
                         var parentOfParentTagName = item.parentNode.parentNode.tagName;
@@ -213,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var searchValue = searchInput.value.toLowerCase();
         var showWarehouse7 = warehouse7Radio.checked;
         var showWarehouseIncome = warehouseIncomeRadio.checked;
-        var showWarehouseVIP = warehouseVIPRadio.checked;
+        var showWarehouseVIP = warehouseVIPRadio.checked; // Додано
         var showWeight = weightRadio.checked;
         var showPackaged = packagedRadio.checked;
         var showAll = allRadio.checked;
@@ -243,11 +235,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 var isInWarehouseIncome = rows[i].classList.contains("warehouse-income");
                 var isInWarehouseVIP = rows[i].classList.contains("warehouse-vip");
 
-
                 var shouldDisplay = matchesSearch && matchesFilter &&
                     (
-                        (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип"))
-                        (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип"))
+                        (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип")) ||
+                        (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип")) ||
                         (showWarehouseVIP && isInWarehouseVIP)
                     );
 
@@ -264,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!searchFilterActive) {
             closeAllGroups();
         }
-        
+
         for (var i = 0; i < groupRows.length; i++) {
             var groupName = groupRows[i].getAttribute("data-group");
             if (!displayedGroups[groupName]) {
@@ -316,7 +307,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     (showWarehouse7 && isInWarehouse7 && !item.innerText.toLowerCase().includes("акция вип")) ||
                     (showWarehouseIncome && isInWarehouseIncome && !item.innerText.toLowerCase().includes("акция вип")) ||
                     (showWarehouseVIP && isInWarehouseVIP)
-
                 );
 
             item.style.display = shouldDisplay ? displayStyle : "none";
