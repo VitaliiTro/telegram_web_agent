@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var packagedRadio = document.getElementById("packagedRadio");
     var allRadio = document.getElementById("allRadio");
     var warehouseVIPRadio = document.getElementById("warehouseVIPRadio");
+    var warehouseOPTRadio = document.getElementById("warehouseOPTRadio");
 
     searchInput.addEventListener("input", filterItems);
     warehouse7Radio.addEventListener("change", filterItems);
@@ -75,6 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     packagedRadio.addEventListener("change", filterItems);
     allRadio.addEventListener("change", filterItems);
     warehouseVIPRadio.addEventListener("change", filterItems);
+    warehouseOPTRadio.addEventListener("change", filterItems);
 
     // Завантаження даних та фільтрація
     loadDataAndFilter();
@@ -180,6 +182,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         if (itemName.includes("АКЦИЯ ВИП")) {
                             itemRow.classList.add("warehouse-vip");
+                        }
+
+                         if (itemName.includes("ОПТ")) {
+                            itemRow.classList.add("warehouse-opt");
                         }
 
                         itemRow.classList.add("group-" + groupName.toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "") + "-item", "product-row");
