@@ -252,9 +252,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 var shouldDisplay = matchesSearch && matchesFilter &&
                     (
-                        (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип")) && !itemName.includes("ОПТ"))||
-                        (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип")) && !itemName.includes("ОПТ"))||
-                        (showWarehouseVIP && isInWarehouseVIP) && !itemName.includes("ОПТ"))||
+                        (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип")) && !itemName.includes("опт"))||
+                        (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип")) && !itemName.includes("опт"))||
+                        (showWarehouseVIP && isInWarehouseVIP) && !itemName.includes("опт"))||
                         (showWarehouseOPT && isInWarehouseOPT) && !itemName.includes("акция вип"))||
                     );
 
@@ -322,9 +322,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
             var shouldDisplay = matchesFilter &&
                 (
-                    (showWarehouse7 && isInWarehouse7 && !item.innerText.toLowerCase().includes("акция вип")) && !item.innerText.toLowerCase().includes("ОПТ"))||
-                    (showWarehouseIncome && isInWarehouseIncome && !item.innerText.toLowerCase().includes("акция вип")) && !item.innerText.toLowerCase().includes("ОПТ"))||
-                    (showWarehouseVIP && isInWarehouseVIP) && !item.innerText.toLowerCase().includes("ОПТ"))||
+                    (showWarehouse7 && isInWarehouse7 && !item.innerText.toLowerCase().includes("акция вип")) && !item.innerText.toLowerCase().includes("опт"))||
+                    (showWarehouseIncome && isInWarehouseIncome && !item.innerText.toLowerCase().includes("акция вип")) && !item.innerText.toLowerCase().includes("опт"))||
+                    (showWarehouseVIP && isInWarehouseVIP) && !item.innerText.toLowerCase().includes("опт"))||
                     (showWarehouseOPT && isInWarehouseOPT) && !item.innerText.toLowerCase().includes("акция вип"))
                 );
 
