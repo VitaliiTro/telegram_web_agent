@@ -68,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var packagedRadio = document.getElementById("packagedRadio");
     var allRadio = document.getElementById("allRadio");
     var warehouseVIPRadio = document.getElementById("warehouseVIPRadio");
-    var warehouseOPTRadio = document.getElementById("warehouseOPTRadio");
 
 
     searchInput.addEventListener("input", filterItems);
@@ -191,10 +190,6 @@ document.addEventListener("DOMContentLoaded", function () {
                             itemRow.classList.add("warehouse-vip");
                         }
 
-                        if (itemName.includes("ОПТ")) {
-                            itemRow.classList.add("warehouse-opt");
-                        }
-
                         itemRow.classList.add("group-" + groupName.toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, "") + "-item", "product-row");
                         itemRow.setAttribute("data-group", groupName);
                         itemRow.style.display = "none";
@@ -219,7 +214,6 @@ document.addEventListener("DOMContentLoaded", function () {
         var showWarehouse7 = warehouse7Radio.checked;
         var showWarehouseIncome = warehouseIncomeRadio.checked;
         var showWarehouseVIP = warehouseVIPRadio.checked;
-        var showWarehouseOPT = warehouseOPTRadio.checked;
         var showWeight = weightRadio.checked;
         var showPackaged = packagedRadio.checked;
         var showAll = allRadio.checked;
@@ -248,14 +242,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 var isInWarehouse7 = rows[i].classList.contains("warehouse-7");
                 var isInWarehouseIncome = rows[i].classList.contains("warehouse-income");
                 var isInWarehouseVIP = rows[i].classList.contains("warehouse-vip");
-                var isInWarehouseOPT = rows[i].classList.contains("warehouse-opt");
+
 
                 var shouldDisplay = matchesSearch && matchesFilter &&
                     (
-                        (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип")) && !itemName.includes("опт"))||
-                        (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип")) && !itemName.includes("опт"))||
-                        (showWarehouseVIP && isInWarehouseVIP) && !itemName.includes("опт"))||
-                        (showWarehouseOPT && isInWarehouseOPT) && !itemName.includes("акция вип"))||
+                        (showWarehouse7 && isInWarehouse7 && !itemName.includes("акция вип"))
+                        (showWarehouseIncome && isInWarehouseIncome && !itemName.includes("акция вип"))
+                        (showWarehouseVIP && isInWarehouseVIP)
                     );
 
                 if (shouldDisplay) {
@@ -305,11 +298,9 @@ document.addEventListener("DOMContentLoaded", function () {
             var isInWarehouse7 = item.classList.contains("warehouse-7");
             var isInWarehouseIncome = item.classList.contains("warehouse-income");
             var isInWarehouseVIP = item.classList.contains("warehouse-vip");
-            var isInWarehouseOPT = item.classList.contains("warehouse-opt");
             var showWarehouse7 = warehouse7Radio.checked;
             var showWarehouseIncome = warehouseIncomeRadio.checked;
             var showWarehouseVIP = warehouseVIPRadio.checked;
-            var showWarehouseOPT = warehouseOPTRadio.checked;
             var showWeight = weightRadio.checked;
             var showPackaged = packagedRadio.checked;
             var showAll = allRadio.checked;
@@ -322,10 +313,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             var shouldDisplay = matchesFilter &&
                 (
-                    (showWarehouse7 && isInWarehouse7 && !item.innerText.toLowerCase().includes("акция вип")) && !item.innerText.toLowerCase().includes("опт"))||
-                    (showWarehouseIncome && isInWarehouseIncome && !item.innerText.toLowerCase().includes("акция вип")) && !item.innerText.toLowerCase().includes("опт"))||
-                    (showWarehouseVIP && isInWarehouseVIP) && !item.innerText.toLowerCase().includes("опт"))||
-                    (showWarehouseOPT && isInWarehouseOPT) && !item.innerText.toLowerCase().includes("акция вип"))
+                    (showWarehouse7 && isInWarehouse7 && !item.innerText.toLowerCase().includes("акция вип")) ||
+                    (showWarehouseIncome && isInWarehouseIncome && !item.innerText.toLowerCase().includes("акция вип")) ||
+                    (showWarehouseVIP && isInWarehouseVIP)
+
                 );
 
             item.style.display = shouldDisplay ? displayStyle : "none";
