@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="17.02.2025">
 	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
-		<Order OrderNumber="РК000000022356" Stage="Отгружен" TT="ЛЯШЕНКО ВІТАЛІЙ ВОЛОДИМИРОВИЧ(ПРОДУКТИ)" Adress="Новоживотів, САДОВА, 47" SumOrder="1 646,42" InvoiceNumber="РК000000021506" SumInvoice="1 005,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000022355" Stage="Отгружен" TT="ЛЯШЕНКО ВІТАЛІЙ ВОЛОДИМИРОВИЧ(ПРОДУКТИ)" Adress="Новоживотів, САДОВА, 47" SumOrder="1 059,84" InvoiceNumber="РК000000021508" SumInvoice="1 059,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000022356" Stage="Отгружен" TT="ЛЯШЕНКО ВІТАЛІЙ ВОЛОДИМИРОВИЧ(ПРОДУКТИ)" Adress="Новоживотів, САДОВА, 47" SumOrder="1 646,42" InvoiceNumber="РК000000021506" SumInvoice="1 005,7" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000022228" Stage="Новый" TT="ТОВ &quot;ПОДІЛЛЯНАФТОТРЕЙД&quot;  АЗС &quot;CHIPO&quot; №36" Adress="Вінниця, Батозька, 2&quot;д&quot;" SumOrder="1 145,23" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -66,6 +66,9 @@
 	</Agent>
 	<Agent Login="UA002-0062" AgentName="Попенко Ілля (ваг)">
 		<Order OrderNumber="РК000000022357" Stage="Отгружен" TT="КРАСНОСТУП ВАДИМ ОЛЕГОВИЧ М-Н &quot;СМАК&quot;" Adress="Адампіль, Червоноармійська, 18" SumOrder="1 796,76" InvoiceNumber="РК000000021507" SumInvoice="1 796,8" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0037" AgentName="Січкар Володимир! (ваг)">
+		<Order OrderNumber="РК000000022360" Stage="НеОбработан" TT="КОЛЕСНИК ОЛЕНА МИХАЙЛІВНА  (МАГАЗИН ПРОДУКТИ)" Adress="Крижопіль, В.Стуса, 2" SumOrder="2 572,43" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0021" AgentName="Келип Олександр (фас)">
 		<Order OrderNumber="РК000000022354" Stage="Отгружен" TT="ЧОРНОМАЗ ЮЛІЯ ПАВЛІВНА   М-Н &quot;ПРОДУКТИ&quot;" Adress="Китайгород, ЛЕНІНА, 1" SumOrder="2 234,24" InvoiceNumber="РК000000021504" SumInvoice="2 234,3" F2="FALSE" XPEditor=""/>
