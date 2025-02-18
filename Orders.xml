@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="18.02.2025">
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000022912" Stage="Отгружен" TT="РУБІНА ВАЛЕНТИНА ВІКТОРІВНА (МАГАЗИН ЗОДІАК)" Adress="Уланів, Миру, 36А" SumOrder="1 442,45" InvoiceNumber="РК000000022011" SumInvoice="620,6" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000022242" Stage="Новый" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС  БРСМ" Adress="Вінниця, Хмельницьке шосе, 114/1" SumOrder="1 611,96" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000022756" Stage="Новый" TT="КЕБА ПЕТРО ІВАНОВИЧ (МАГАЗИН ПРОДУКТИ)" Adress="Бруслинів, ЛЕНІНА, 10" SumOrder="1 469,99" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -15,5 +18,8 @@
 		<Order OrderNumber="РК000000022840" Stage="Новый" TT="КРАВЧУК ВАСИЛЬ КАРПОВИЧ(ПРОДУКТИ БІЛЯ КЛУБУ)" Adress="Курилівка, О.КОШОВОГО, 133" SumOrder="1 878,8" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000022817" Stage="Новый" TT="БРАЦЮК НАДІЯ МИКОЛАЇВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Порик, СВЕРДЛОВА, 19-А" SumOrder="1 617,36" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000022810" Stage="Новый" TT="ШАКУЛА ГАННА ПЕТРІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Петриківці, НЕЗАЛЕЖНОСТІ, 23" SumOrder="2 030,38" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0019" AgentName="Кравчик Максим (фас)">
+		<Order OrderNumber="РК000000022911" Stage="Отгружен" TT="ШЕВЧУК АНАТОЛІЙ АНІКІЙОВИЧ М-Н &quot;КОФІКС&quot;" Adress="Широка Гребля, ГАГАРІНА, 1" SumOrder="1 151,76" InvoiceNumber="РК000000022010" SumInvoice="1 151,8" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
