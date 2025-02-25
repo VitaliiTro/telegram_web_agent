@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="25.02.2025">
+	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
+		<Order OrderNumber="РК000000026291" Stage="НеОбработан" TT="КУРІЛЕЦЬ ВАЛЕНТИНА МИКОЛАЇВНА МАГАЗИН &quot;КАШТАН&quot;" Adress="Уланів, Миру, 32" SumOrder="2 057,64" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
-		<Order OrderNumber="РК000000025154" Stage="Новый" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС  БРСМ" Adress="Вінниця, Хмельницьке шосе, 114/1" SumOrder="1 700,4" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000025854" Stage="Новый" TT="ДРАЧУК ОЛЬГА ВОЛОДИМИРІВНА М-Н &quot;ЩОДНЯ&quot;" Adress="Хмільник, Свободи, 13" SumOrder="2 125,73" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000025850" Stage="Новый" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС &quot;БРСМ- НАФТА&quot;" Adress="Махнівка, Київська, 1" SumOrder="366,08" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000025154" Stage="Отгружен" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС  БРСМ" Adress="Вінниця, Хмельницьке шосе, 114/1" SumOrder="1 700,4" InvoiceNumber="РК000000025260" SumInvoice="1 700,4" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000025854" Stage="Отгружен" TT="ДРАЧУК ОЛЬГА ВОЛОДИМИРІВНА М-Н &quot;ЩОДНЯ&quot;" Adress="Хмільник, Свободи, 13" SumOrder="2 125,73" InvoiceNumber="РК000000025262" SumInvoice="2 125,8" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000025850" Stage="Отгружен" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС &quot;БРСМ- НАФТА&quot;" Adress="Махнівка, Київська, 1" SumOrder="366,08" InvoiceNumber="РК000000025261" SumInvoice="366,08" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
 		<Order OrderNumber="РК000000026286" Stage="НеОбработан" TT="ГАНДЗЮК ІННА МИХАЙЛІВНА М-Н &quot;АЛІСА&quot;" Adress="Могилів-Подільський, Площадь Чорновола, 3" SumOrder="3 711,38" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -12,9 +15,9 @@
 		<Order OrderNumber="РК000000026285" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="4 651,19" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0004" AgentName="Сахненко Віктор! (фас)">
-		<Order OrderNumber="РК000000026289" Stage="Отгружен" TT="БОСА ОКСАНА ПЕТРІВНА(МАГАЗИН &quot;ОРХІДЕЯ&quot;)" Adress="Гнатків, ЛЕНІНА, 2" SumOrder="2 417,98" InvoiceNumber="РК000000025259" SumInvoice="2 418" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000026290" Stage="Отгружен" TT="БОСА ОКСАНА ПЕТРІВНА(МАГАЗИН &quot;ОРХІДЕЯ&quot;)" Adress="Гнатків, ЛЕНІНА, 2" SumOrder="1,8" InvoiceNumber="РК000000025258" SumInvoice="1,8" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000026288" Stage="Отгружен" TT="БОСА ОКСАНА ПЕТРІВНА(МАГАЗИН &quot;ОРХІДЕЯ&quot;)" Adress="Гнатків, ЛЕНІНА, 2" SumOrder="2 719,08" InvoiceNumber="РК000000025257" SumInvoice="2 719,1" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000026290" Stage="Отгружен" TT="БОСА ОКСАНА ПЕТРІВНА(МАГАЗИН &quot;ОРХІДЕЯ&quot;)" Adress="Гнатків, ЛЕНІНА, 2" SumOrder="1,8" InvoiceNumber="РК000000025258" SumInvoice="1,8" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000026289" Stage="Отгружен" TT="БОСА ОКСАНА ПЕТРІВНА(МАГАЗИН &quot;ОРХІДЕЯ&quot;)" Adress="Гнатків, ЛЕНІНА, 2" SumOrder="2 417,98" InvoiceNumber="РК000000025259" SumInvoice="2 418" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0007" AgentName="Тучинський Сергій (фас)">
 		<Order OrderNumber="РК000000026287" Stage="Отгружен" TT="ОСТРОВСЬКА ГАЛИНА ВАСИЛІВНА  маг. &quot;Хлібна країна&quot;" Adress="Віньківці, Центральна (Першотравнева), 12" SumOrder="824,98" InvoiceNumber="РК000000025256" SumInvoice="825" F2="FALSE" XPEditor=""/>
