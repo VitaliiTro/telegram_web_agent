@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<Day Date="05.03.2025"/>
+<Day Date="05.03.2025">
+	<Agent Login="UA002-0060" AgentName="Дудник Олександр (фас)">
+		<Order OrderNumber="РК000000030704" Stage="Отгружен" TT="БУТКІВСЬКИЙ ВІКТОР АНАТОЛІЙОВИЧ  М-Н ПРОДУКТИ" Adress="Приборівка, Л. УКРАЇНКИ, 3" SumOrder="1 818,77" InvoiceNumber="РК000000029384" SumInvoice="1 496,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000030703" Stage="Отгружен" TT="БУТКІВСЬКИЙ ВІКТОР АНАТОЛІЙОВИЧ  М-Н ПРОДУКТИ" Adress="Приборівка, Л. УКРАЇНКИ, 3" SumOrder="3 268,68" InvoiceNumber="РК000000029385" SumInvoice="3 268,7" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
+		<Order OrderNumber="РК000000030702" Stage="НеОбработан" TT="НЕСТЮК НЕЛЯ ВАСИЛІВНА(МІНІ- МАРКЕТ &quot;КИЇВСЬКА РУСЬ&quot;)" Adress="Стрижавка, Молодіжна, 7" SumOrder="1 270,68" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+</Day>
