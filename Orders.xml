@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="01.04.2025">
+	<Agent Login="UA002-0035" AgentName="Кравчук Сергій (ваг)">
+		<Order OrderNumber="РК000000047263" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="1 126,85" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000047025" Stage="Новый" TT="БОЙЧУК ОЛЕГ СТЕПАНОВИЧ М-Н ПРОДУКТИ" Adress="Стодульці, Леніна, 50" SumOrder="5 619,68" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000047036" Stage="Новый" TT="КЕБА ПЕТРО ІВАНОВИЧ (МАГАЗИН ПРОДУКТИ)" Adress="Бруслинів, ЛЕНІНА, 10" SumOrder="1 313,66" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -18,7 +21,7 @@
 		<Order OrderNumber="РК000000047045" Stage="Новый" TT="ТОВ &quot;ЄВРО СМАРТ ПАУЕР&quot; АЗС &quot;БРСМ- НАФТА&quot;" Adress="Махнівка, Київська, 1" SumOrder="2 153,34" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
-		<Order OrderNumber="РК000000047262" Stage="ЧастичноОбработан" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="1 913,21" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000047262" Stage="Отгружен" TT="ЖМУРКО ЛЮДМИЛА ВАСИЛІВНА  МАГАЗИН &quot;ПЕРЛИНА&quot;" Adress="Носківці, Леніна, 5" SumOrder="1 913,21" InvoiceNumber="РК000000045398" SumInvoice="1 857,7" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0002" AgentName="Бородін Андрій ! (фас)">
 		<Order OrderNumber="РК000000047261" Stage="НеОбработан" TT="ВАСЮТИНСЬКА ОЛЕНА МИХАЙЛІВНА КАФЕ &quot;ЗУСТРІЧ&quot;" Adress="Лука-Барська, Леніна, 1" SumOrder="948,44" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
