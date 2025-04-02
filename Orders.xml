@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="02.04.2025">
 	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
+		<Order OrderNumber="РК000000048000" Stage="Обработан" TT="НЕПИЙВОДА ОЛЕСЯ ПЕТРІВНА МАГАЗИН БЛАГО" Adress="Вінниця, Пирогова, 151А" SumOrder="2 168,03" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000047985" Stage="Отгружен" TT="ТЯГУН ІГОР МИХАЙЛОВИЧ М-Н &quot;КСЮША&quot;" Adress="Вінниця, Заболотного, 20" SumOrder="1 473,46" InvoiceNumber="РК000000046093" SumInvoice="1 473,5" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0036" AgentName="Кулик Олег! (ваг)">
+		<Order OrderNumber="РК000000047997" Stage="Отгружен" TT="СОКОЛЬВАК ОКСАНА ПАВЛІВНА" Adress="Немирів, Горького, 6В" SumOrder="1 245,35" InvoiceNumber="РК000000046103" SumInvoice="1 245,4" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0017" AgentName="Колодій Карина (ваг)">
 		<Order OrderNumber="РК000000047984" Stage="НеОбработан" TT="ЧУБЕНКО НАТАЛІЯ МИКОЛАЇВНА(МАГАЗИН ПРОДУКТИ)" Adress="Зарванці, ІНТЕРНАЦІОНАЛЬНА, 3" SumOrder="1 772,09" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0029" AgentName="Скоцький Вакансія">
 		<Order OrderNumber="РК000000047987" Stage="НеОбработан" TT="КИБА ІННА ОЛЕКСАНДРІВНА МАГАЗИН-БАР" Adress="Рахни Лісові, Леніна, 96" SumOrder="15 822,44" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
-	</Agent>
-	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
-		<Order OrderNumber="РК000000047991" Stage="Отгружен" TT="ЗАКИРНИЧНА ГАЛИНА МИХАЙЛІВНА ПРОДУКТИ &quot;0-24&quot; БІЛЯ ОБУВНОІ МАЙСТЕРНІ)" Adress="Вінниця, Маяковського, 1" SumOrder="1 020,16" InvoiceNumber="РК000000046097" SumInvoice="1 020,2" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000047986" Stage="НеОбработан" TT="ЄЛІСЄЄВА АНАСТАСІЯ ЛЕОНІДІВНА М-Н СТРАРОМІСЬКЕ" Adress="Вінниця, Маяковського, 140" SumOrder="3 095,89" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000047999" Stage="НеОбработан" TT="ГАЛЕТА РУСЛАНА СЕМЕНІВНА(ПРОДУКТИ)" Adress="Рахни Лісові, Гагаріна, 6" SumOrder="2 899,78" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000047998" Stage="НеОбработан" TT="ГАЛЕТА РУСЛАНА СЕМЕНІВНА(ПРОДУКТИ)" Adress="Рахни Лісові, Гагаріна, 6" SumOrder="963,31" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000047673" Stage="Отгружен" TT="КЛЕПКО МАКСИМ ВАСИЛЬОВИЧ  ПРОДУКТИ" Adress="Вінниця, Маяковського, 205" SumOrder="1 831,85" InvoiceNumber="РК000000045662" SumInvoice="1 831,9" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000047689" Stage="Отгружен" TT="КЛЕПКО МАКСИМ ВАСИЛЬОВИЧ  ПРОДУКТИ" Adress="Вінниця, Маяковського, 205" SumOrder="2 008,64" InvoiceNumber="РК000000046100" SumInvoice="2 008,7" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000047995" Stage="Отгружен" TT="КЛЕПКО МАКСИМ ВАСИЛЬОВИЧ  ПРОДУКТИ" Adress="Вінниця, Маяковського, 205" SumOrder="0,36" InvoiceNumber="РК000000046101" SumInvoice="0,4" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000047881" Stage="Отгружен" TT="КИІВ ТОВ АЛЬЯНС ХОЛДИНГ АЗС-9" Adress="Вінниця, Левка Лук'яненка, 14Б" SumOrder="3 199,18" InvoiceNumber="РК000000046099" SumInvoice="3 199,18" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
+		<Order OrderNumber="РК000000047991" Stage="Отгружен" TT="ЗАКИРНИЧНА ГАЛИНА МИХАЙЛІВНА ПРОДУКТИ &quot;0-24&quot; БІЛЯ ОБУВНОІ МАЙСТЕРНІ)" Adress="Вінниця, Маяковського, 1" SumOrder="1 020,16" InvoiceNumber="РК000000046097" SumInvoice="1 020,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000047986" Stage="НеОбработан" TT="ЄЛІСЄЄВА АНАСТАСІЯ ЛЕОНІДІВНА М-Н СТРАРОМІСЬКЕ" Adress="Вінниця, Маяковського, 140" SumOrder="3 095,89" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0031" AgentName="Бассараб Єгор (фас)">
 		<Order OrderNumber="РК000000047993" Stage="Отгружен" TT="НАУМЕНКО ВІТАЛІЙ ЮРІЙОВИЧ МАГ. ПРОДУКТИ" Adress="Щаслива, БУДЬОНОГО, 1" SumOrder="2 641,37" InvoiceNumber="РК000000046098" SumInvoice="2 184,3" F2="FALSE" XPEditor=""/>
