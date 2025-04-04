@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="04.04.2025">
+	<Agent Login="UA002-0060" AgentName="Дудник Олександр (фас)">
+		<Order OrderNumber="РК000000049401" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="1 844,09" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000048551" Stage="Новый" TT="МЕТЕЛЬОВА ТЕТЯНА СТЕПАНІВНА МАГАЗИН ПРОДМАГ N 1" Adress="Росоша, Грушевського (К. Маркса), 74" SumOrder="2 683,32" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000049305" Stage="Новый" TT="ШВЕЦЬ АЛЛА ВАСИЛІВНА(МАГАЗИН ПРОДУКТИ)" Adress="Могилів-Подільський, Олени Пчілки, 25" SumOrder="3 501,44" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000049232" Stage="Новый" TT="ПОГРЕБИЩЕ ВІВА-ВІКТОРІЯ СТ МАГ.КОЛО ШКОЛИ" Adress="Адамівка, МИРУ, 17" SumOrder="1 705,33" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
+		<Order OrderNumber="РК000000049400" Stage="НеОбработан" TT="ТАРАСЕНКО СЕРГІЙ ВОЛОДИМИРОВИЧ продукти" Adress="Вінниця, МОСКОВСЬКА, 1" SumOrder="1 124,62" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
