@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="04.04.2025">
 	<Agent Login="UA002-0060" AgentName="Дудник Олександр (фас)">
+		<Order OrderNumber="РК000000049407" Stage="Отгружен" TT="МАТВІЙЧУК ЛЮДМИЛА ПЕТРІВНА " Adress="Сутиски, Соборна, 47" SumOrder="3 452,81" InvoiceNumber="РК000000047473" SumInvoice="3 452,8" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000049401" Stage="НеОбработан" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="1 844,09" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
+		<Order OrderNumber="РК000000049406" Stage="Отгружен" TT="ЗАГНІТКО ТЕТЯНА ЄВГЕНІЇВНА МАГАЗИН ПРОДУКТИ" Adress="Вінниця, Пирогова, 40/42" SumOrder="6 251,82" InvoiceNumber="РК000000047471" SumInvoice="6 251,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000049408" Stage="Отгружен" TT="ЗАГНІТКО ТЕТЯНА ЄВГЕНІЇВНА МАГАЗИН ПРОДУКТИ" Adress="Вінниця, Пирогова, 40/42" SumOrder="1,44" InvoiceNumber="РК000000047472" SumInvoice="1,5" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0035" AgentName="Кравчук Сергій (ваг)">
 		<Order OrderNumber="РК000000049402" Stage="Отгружен" TT="ШВАБСЬКИЙ ОЛЕКСАНДР ОЛЕКСАНДРОВИЧ  М-Н &quot;ТПП&quot;" Adress="Приборівка, Л. УКРАЇНКИ, 3 А" SumOrder="1 360,76" InvoiceNumber="РК000000047467" SumInvoice="1 360,8" F2="FALSE" XPEditor=""/>
@@ -19,5 +24,8 @@
 	</Agent>
 	<Agent Login="UA002-0026" AgentName="Вергелес Андрій (ваг)">
 		<Order OrderNumber="РК000000049400" Stage="НеОбработан" TT="ТАРАСЕНКО СЕРГІЙ ВОЛОДИМИРОВИЧ продукти" Adress="Вінниця, МОСКОВСЬКА, 1" SumOrder="1 124,62" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0041" AgentName="Шереметова Олена (ваг)">
+		<Order OrderNumber="РК000000049405" Stage="Отгружен" TT="ДОЛЯНОВСЬКА ВІКТОРІЯ ВІКТОРІВНА МАГ-Н ПРОДУКТИ" Adress="Селище, ЦЕНТРАЛЬНА, 119" SumOrder="1 035,02" InvoiceNumber="РК000000047470" SumInvoice="1 035,1" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
