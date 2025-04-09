@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="09.04.2025">
-	<Agent Login="UA002-0038" AgentName="Заяць Володимир (ваг)">
-		<Order OrderNumber="РК000000051814" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="657,12" InvoiceNumber="РК000000049816" SumInvoice="657,2" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000051815" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="5 985,82" InvoiceNumber="РК000000049814" SumInvoice="5 985,9" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000051816" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="1,44" InvoiceNumber="РК000000049815" SumInvoice="1,5" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000051812" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="209,7" InvoiceNumber="РК000000049818" SumInvoice="209,7" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000051817" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="165,36" InvoiceNumber="РК000000049819" SumInvoice="165,4" F2="FALSE" XPEditor=""/>
-		<Order OrderNumber="РК000000051813" Stage="Отменен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="165,36" InvoiceNumber="РК000000049817" SumInvoice="165,4" F2="FALSE" XPEditor=""/>
-	</Agent>
 	<Agent Login="UA002-0029" AgentName="Скоцький Вакансія">
+		<Order OrderNumber="РК000000051823" Stage="Обработан" TT="КИБА ІННА ОЛЕКСАНДРІВНА МАГАЗИН-БАР" Adress="Рахни Лісові, Леніна, 96" SumOrder="2 567,92" InvoiceNumber="РК000000049821" SumInvoice="2 568" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000051818" Stage="Отгружен" TT="ЧАЙКА ЮРІЙ МИХАЙЛОВИЧ МАГ-Н &quot;ЧАЙКА&quot;" Adress="Рахни Лісові, Леніна, 55" SumOrder="1 501,33" InvoiceNumber="РК000000049820" SumInvoice="1 501,4" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0024" AgentName="Гоцуляк Богдан! (фас)">
@@ -16,6 +9,14 @@
 	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000051663" Stage="Отгружен" TT="ПРИВАТНЕ ПІДПРИЄМСТВО &quot;УКРПАЛЕТСИСТЕМ&quot;  UPG" Adress="Щітки, М - 30, КМ 400 + 693, " SumOrder="2 747,3" InvoiceNumber="РК000000049652" SumInvoice="2 552,9" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0038" AgentName="Заяць Володимир (ваг)">
+		<Order OrderNumber="РК000000051814" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="657,12" InvoiceNumber="РК000000049816" SumInvoice="657,2" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000051815" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="5 985,82" InvoiceNumber="РК000000049814" SumInvoice="5 985,9" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000051816" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="1,44" InvoiceNumber="РК000000049815" SumInvoice="1,5" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000051812" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="209,7" InvoiceNumber="РК000000049818" SumInvoice="209,7" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000051817" Stage="Отгружен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="165,36" InvoiceNumber="РК000000049819" SumInvoice="165,4" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000051813" Stage="Отменен" TT="ЯЦЕНКО МАЙЯ АДОЛЬФІВНА(МАГ-Н &quot;ВІТЕРЕЦЬ&quot;)" Adress="Мухівці, ЛЕНІНА, " SumOrder="165,36" InvoiceNumber="РК000000049817" SumInvoice="165,4" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0059" AgentName="Рудик Олександр (ваг)">
 		<Order OrderNumber="РК000000051819" Stage="НеОбработан" TT="БІЛОЗОРА ВАЛЕНТИНА ОЛЕКСАНДРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Павлівка, Центральна, 45" SumOrder="5 524,7" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
