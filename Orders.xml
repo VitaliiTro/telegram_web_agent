@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="16.04.2025">
+	<Agent Login="UA002-0034" AgentName="Паламарчук Лілія(ваг)">
+		<Order OrderNumber="РК000000055991" Stage="Отгружен" TT="КИЛІВНИК ВІТАЛІЙ ГРИГОРОВИЧ (МАГАЗИН ПРОДУКТИ)" Adress="Вінницькі Хутори, ДРУЖБИ, 26-А" SumOrder="963,31" InvoiceNumber="РК000000053870" SumInvoice="963,4" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000055990" Stage="Отгружен" TT="КИЛІВНИК ВІТАЛІЙ ГРИГОРОВИЧ (МАГАЗИН ПРОДУКТИ)" Adress="Вінницькі Хутори, ДРУЖБИ, 26-А" SumOrder="7 946,28" InvoiceNumber="РК000000053872" SumInvoice="7 946,3" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000055993" Stage="НеОбработан" TT="КИЛІВНИК ВІТАЛІЙ ГРИГОРОВИЧ (МАГАЗИН ПРОДУКТИ)" Adress="Вінницькі Хутори, ДРУЖБИ, 26-А" SumOrder="1,44" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000055989" Stage="Отгружен" TT="КИЛІВНИК ВІТАЛІЙ ГРИГОРОВИЧ (МАГАЗИН ПРОДУКТИ)" Adress="Вінницькі Хутори, ДРУЖБИ, 26-А" SumOrder="438,36" InvoiceNumber="РК000000053873" SumInvoice="438,4" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0035" AgentName="Кравчук Сергій (ваг)">
 		<Order OrderNumber="РК000000055986" Stage="Отгружен" TT="РИБАЛКО СВІТЛАНА ЛЕОНІДІВНА (МАГ-Н &quot;ТРОЯ&quot;)" Adress="Немирів, Горького, 1-А" SumOrder="5 231,95" InvoiceNumber="РК000000053867" SumInvoice="5 232" F2="FALSE" XPEditor=""/>
 	</Agent>
@@ -10,6 +16,9 @@
 		<Order OrderNumber="РК000000055984" Stage="Отгружен" TT="ЧАЙКА ЮРІЙ МИХАЙЛОВИЧ МАГ-Н &quot;ЧАЙКА&quot;" Adress="Рахни Лісові, Леніна, 55" SumOrder="955,44" InvoiceNumber="РК000000053868" SumInvoice="955,5" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000055988" Stage="Отгружен" TT="ЧАЙКА ЮРІЙ МИХАЙЛОВИЧ МАГ-Н &quot;ЧАЙКА&quot;" Adress="Рахни Лісові, Леніна, 55" SumOrder="1,8" InvoiceNumber="РК000000053869" SumInvoice="1,8" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000055985" Stage="Отгружен" TT="ЧАЙКА ЮРІЙ МИХАЙЛОВИЧ МАГ-Н &quot;ЧАЙКА&quot;" Adress="Рахни Лісові, Леніна, 55" SumOrder="2 206,75" InvoiceNumber="РК000000053866" SumInvoice="2 206,8" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0062" AgentName="Попенко Ілля (ваг)">
+		<Order OrderNumber="РК000000055992" Stage="Отгружен" TT="ХАРИЦЬКА ТЕТЯНА ВОЛОДИМИРІВНА М-Н &quot;ХУТОРОК&quot;" Adress="Романово-Хутір, Миру, 95" SumOrder="1 521,83" InvoiceNumber="РК000000053871" SumInvoice="1 521,9" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000055626" Stage="Новый" TT="КИІВ ТОВ АЛЬЯНС ХОЛДИНГ АЗС-9" Adress="Вінниця, Левка Лук'яненка, 14Б" SumOrder="628,02" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
