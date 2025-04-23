@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="23.04.2025">
+	<Agent Login="UA002-0074" AgentName="Оператор">
+		<Order OrderNumber="РК000000059222" Stage="Новый" TT="0 КАСА -21 СИДОРЕНКО Т.А. САМОВИВОЗ" Adress="Вінниця, ЛЕБЕДИНСЬКОГО, 15/1" SumOrder="3 654" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0078" AgentName="Кондратюк Тетяна ">
 		<Order OrderNumber="РК000000059089" Stage="Новый" TT="МАРТИНИШИН ВОЛОДИМИР ПЕТРОВИЧ ГАСТРОНОМ" Adress="Немирів, ЛЕНІНА , 208" SumOrder="983,26" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000059081" Stage="Новый" TT="БІЛЕЦЬКИЙ БОРИС ВІКТОРОВИЧ М-Н&quot;КРАМНИЦЯ&quot;" Adress="Ксаверівка, ХМ.ШОСЕ, 43-В" SumOrder="2 488,46" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
@@ -14,13 +17,21 @@
 		<Order OrderNumber="РК000000059212" Stage="НеОбработан" TT="ШЕВЧЕНКО ПАВЛО ВОЛОДИМИРОВИЧ(МАГАЗИН ПРОДУКТИ)" Adress="Вінниця, ПЕРШОТРАВНЕВА, 92" SumOrder="811,61" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0062" AgentName="Попенко Ілля (ваг)">
-		<Order OrderNumber="РК000000059216" Stage="Отгружен" TT="КРАСНОШТАН ВІКТОР ІВАНОВИЧ КІОСК ВЛАДАР" Adress="Жорнище, БОЙКА, 13 А" SumOrder="3 430,07" InvoiceNumber="РК000000057074" SumInvoice="3 430,1" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000059215" Stage="Отгружен" TT="КРАСНОШТАН ВІКТОР ІВАНОВИЧ КІОСК ВЛАДАР" Adress="Жорнище, БОЙКА, 13 А" SumOrder="517,56" InvoiceNumber="РК000000057075" SumInvoice="517,6" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000059217" Stage="Отгружен" TT="КРАСНОШТАН ВІКТОР ІВАНОВИЧ КІОСК ВЛАДАР" Adress="Жорнище, БОЙКА, 13 А" SumOrder="1,8" InvoiceNumber="РК000000057077" SumInvoice="1,8" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000059214" Stage="Отгружен" TT="КРАСНОШТАН ВІКТОР ІВАНОВИЧ КІОСК ВЛАДАР" Adress="Жорнище, БОЙКА, 13 А" SumOrder="569,69" InvoiceNumber="РК000000057076" SumInvoice="159,3" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000059216" Stage="Отгружен" TT="КРАСНОШТАН ВІКТОР ІВАНОВИЧ КІОСК ВЛАДАР" Adress="Жорнище, БОЙКА, 13 А" SumOrder="3 430,07" InvoiceNumber="РК000000057074" SumInvoice="3 430,1" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0003" AgentName="Мельник Владислав (фас)">
+		<Order OrderNumber="РК000000059218" Stage="НеОбработан" TT="ЄЛІСЄЄВА АНАСТАСІЯ ЛЕОНІДІВНА М-Н СТРАРОМІСЬКЕ" Adress="Вінниця, Маяковського, 140" SumOrder="6 054,1" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0019" AgentName="Кравчик Максим (фас)">
 		<Order OrderNumber="РК000000059213" Stage="НеОбработан" TT="ТУРБАНІСТ СЕРГІЙ СТАНІСЛАВОВИЧ М-Н ПРОДУКТИ" Adress="Черемошне, ЦЕНТРАЛЬНА, " SumOrder="1 975,5" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0035" AgentName="Кравчук Сергій (ваг)">
+		<Order OrderNumber="РК000000059220" Stage="Отгружен" TT="КОСТЕЛЬНЮК ТАМАРА ІВАНІВНА &quot;ПРОДУКТИ&quot;" Adress="Червоне, ЛЕНІНА, 45" SumOrder="517,56" InvoiceNumber="РК000000057078" SumInvoice="517,6" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000059221" Stage="Отгружен" TT="КОСТЕЛЬНЮК ТАМАРА ІВАНІВНА &quot;ПРОДУКТИ&quot;" Adress="Червоне, ЛЕНІНА, 45" SumOrder="1,8" InvoiceNumber="РК000000057080" SumInvoice="1,8" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000059219" Stage="Отгружен" TT="КОСТЕЛЬНЮК ТАМАРА ІВАНІВНА &quot;ПРОДУКТИ&quot;" Adress="Червоне, ЛЕНІНА, 45" SumOrder="581,11" InvoiceNumber="РК000000057079" SumInvoice="581,2" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0059" AgentName="Рудик Олександр (ваг)">
 		<Order OrderNumber="РК000000059211" Stage="Отгружен" TT="БІЛОЗОРА ВАЛЕНТИНА ОЛЕКСАНДРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="Павлівка, Центральна, 45" SumOrder="1 077,91" InvoiceNumber="РК000000057073" SumInvoice="1 078" F2="FALSE" XPEditor=""/>
