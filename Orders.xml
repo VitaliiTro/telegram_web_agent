@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="08.07.2025">
+	<Agent Login="UA002-0062" AgentName="Попенко Ілля (ваг)">
+		<Order OrderNumber="РК000000101828" Stage="Обработан" TT="СТ САМГОРОДОЦЬКЕ ПРОДТОВАРИ" Adress="Миколаївка, ЛЕНІНА, 36" SumOrder="393,41" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000101831" Stage="Обработан" TT="СТ САМГОРОДОЦЬКЕ ПРОДТОВАРИ" Adress="Миколаївка, ЛЕНІНА, 36" SumOrder="2,16" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000101829" Stage="ЧастичноОбработан" TT="СТ САМГОРОДОЦЬКЕ ПРОДТОВАРИ" Adress="Миколаївка, ЛЕНІНА, 36" SumOrder="6 188,94" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000101827" Stage="ЧастичноОбработан" TT="СТ САМГОРОДОЦЬКЕ ПРОДТОВАРИ" Adress="Миколаївка, ЛЕНІНА, 36" SumOrder="249,59" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+	</Agent>
 	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
 		<Order OrderNumber="РК000000101823" Stage="Отгружен" TT="БАРАНОВСЬКА СВІТЛАНА ГРИГОРІВНАМАГАЗИН&quot;З ПЕРШИХ РУК&quot; " Adress="Могилів-Подільський, Стависька, 46а" SumOrder="18 471,13" InvoiceNumber="РК000000097848" SumInvoice="16 917,2" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000101822" Stage="Отгружен" TT="БАРАНОВСЬКА СВІТЛАНА ГРИГОРІВНАМАГАЗИН&quot;З ПЕРШИХ РУК&quot; " Adress="Могилів-Подільський, Стависька, 46а" SumOrder="619,78" InvoiceNumber="РК000000097849" SumInvoice="619,8" F2="FALSE" XPEditor=""/>
@@ -12,5 +18,8 @@
 	</Agent>
 	<Agent Login="UA002-0035" AgentName="Кравчук Сергій (ваг)">
 		<Order OrderNumber="РК000000101826" Stage="Отгружен" TT="СТРОЄВ ПАВЛО ОЛЕКСАНДРОВИЧ М-Н ПРОДУКТИ" Adress="Яришівка, ЛЕНІНА, 81" SumOrder="3 124,56" InvoiceNumber="РК000000097852" SumInvoice="3 124,6" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0059" AgentName="Рудик Олександр (ваг)">
+		<Order OrderNumber="РК000000101830" Stage="НеОбработан" TT="СТРЕЛЮК ТЕТЯНА АНТОНІВНА М-Н ПРОДУКТИ" Adress="Сальник, ВІННИЦЬКА, 28" SumOrder="2 112,38" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 </Day>
