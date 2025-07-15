@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <Day Date="15.07.2025">
 	<Agent Login="UA002-0017" AgentName="Ганчик Анна (ваг)">
-		<Order OrderNumber="РК000000104715" Stage="Новый" TT="ЖЕРЕБНЮК МИКОЛА ВАСИЛЬОВИЧ( &quot;СВІТ ЛАСОЩІВ&quot;)" Adress="Могилів-Подільський, Ринкова, 41" SumOrder="1 612,21" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000104715" Stage="Новый" TT="ГРЕБЕЛЯ МИХАЙЛО ВОЛОДИМИРОВИЧ(ПРОДУКТИ)" Adress="Могилів-Подільський, Ринкова, " SumOrder="1 612,21" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
+		<Order OrderNumber="РК000000104717" Stage="НеОбработан" TT="ЖЕРЕБНЮК МИКОЛА ВАСИЛЬОВИЧ(ФІРМОВИЙ МАГАЗИН&quot;ROSHEN&quot;)" Adress="Могилів-Подільський, Ринкова, КОНТ.120" SumOrder="999,25" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0029" AgentName="Зябченко Дмитро (ваг)">
 		<Order OrderNumber="РК000000104716" Stage="Отгружен" TT="ЛЯСКОВСЬКА НАТАЛЯ ПЕТРІВНА М-Н &quot;ПРОДУКТИ&quot;" Adress="" SumOrder="2,88" InvoiceNumber="РК000000100586" SumInvoice="2,9" F2="FALSE" XPEditor=""/>
@@ -71,6 +72,9 @@
 	<Agent Login="UA002-0058" AgentName="Тарасюк Володимир! (ваг)">
 		<Order OrderNumber="РК000000104690" Stage="Отгружен" TT="БАРАНОВСЬКА СВІТЛАНА ГРИГОРІВНАМАГАЗИН&quot;З ПЕРШИХ РУК&quot; " Adress="Могилів-Подільський, Стависька, 46а" SumOrder="3 549,43" InvoiceNumber="РК000000100565" SumInvoice="2 766,6" F2="FALSE" XPEditor=""/>
 		<Order OrderNumber="РК000000104691" Stage="Отгружен" TT="БАРАНОВСЬКА СВІТЛАНА ГРИГОРІВНАМАГАЗИН&quot;З ПЕРШИХ РУК&quot; " Adress="Могилів-Подільський, Стависька, 46а" SumOrder="20 924,86" InvoiceNumber="РК000000100564" SumInvoice="20 786" F2="FALSE" XPEditor=""/>
+	</Agent>
+	<Agent Login="UA002-0062" AgentName="Попенко Ілля (ваг)">
+		<Order OrderNumber="РК000000104718" Stage="Отгружен" TT="БІЛИК ВІТА ЛЕОНІДІВНА  М-Н &quot;ВІТА&quot;" Adress="Широка Гребля, Заводська, 29/5а" SumOrder="1 073,52" InvoiceNumber="РК000000100587" SumInvoice="1 073,6" F2="FALSE" XPEditor=""/>
 	</Agent>
 	<Agent Login="UA002-0007" AgentName="Тучинський Сергій (фас)">
 		<Order OrderNumber="РК000000104711" Stage="НеОбработан" TT="ТИМОФІЄВА ВАЛЕНТИНА ВАСИЛІВНА маг. &quot;Продукти&quot;" Adress="Дашківці, Центральна (Затонського), 2" SumOrder="1 923,77" InvoiceNumber="" SumInvoice="0" F2="FALSE" XPEditor=""/>
